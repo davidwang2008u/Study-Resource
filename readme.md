@@ -3,23 +3,23 @@
 =======================================================================
 # 1. Deep Learning Resource
 ### 中文自然语言处理资料库
--fork: https://github.com/davidwang2008u/Awesome-Chinese-NLP
--https://github.com/crownpku/Awesome-Chinese-NLP
+- https://github.com/davidwang2008u/Awesome-Chinese-NLP
+- https://github.com/crownpku/Awesome-Chinese-NLP
 
 ### 清华的开源项目 信息抽取
--fork: https://github.com/davidwang2008u/OpenNRE
--https://github.com/thunlp/OpenNRE
+- https://github.com/davidwang2008u/OpenNRE
+- https://github.com/thunlp/OpenNRE
 
 ### 机器学习项目发布LifeCycle
-fork: https://github.com/davidwang2008u/mlflow
-https://github.com/mlflow/mlflow
+- https://github.com/davidwang2008u/mlflow
+- https://github.com/mlflow/mlflow
 
 ### 软件知识图谱
 - https://github.com/davidwang2008u/intellide-graph
 - https://github.com/davidwang2008u/Information-Extraction-Chinese
 
 ### 深度学习资料
-fork: https://github.com/davidwang2008u/deep-learning-notes
+- https://github.com/davidwang2008u/deep-learning-notes
 
 ### R-CNN
 - 异常/不规则检测的资源 https://github.com/davidwang2008u/anomaly-detection-resources
@@ -62,13 +62,14 @@ https://github.com/davidwang2008u/stanford-cs-230-deep-learning
 
 
 # 10. Stock Resource
-Fork: https://github.com/davidwang2008u/Data-Analysis
-Resource: https://github.com/WillKoehrsen/Data-Analysis
+- Fork: https://github.com/davidwang2008u/Data-Analysis
+- Resource: https://github.com/WillKoehrsen/Data-Analysis
 
 # 11. QCon资料
-## QCon Shanghai 2018
-fork https://github.com/davidwang2008u/QConShanghai2018
-## QCon历年 https://github.com/QConChina
+### QCon Shanghai 2018
+- fork https://github.com/davidwang2008u/QConShanghai2018
+
+#### QCon历年 https://github.com/QConChina
 
 # 12. 其他工具
 - 阿里p3c https://github.com/davidwang2008u/p3c
