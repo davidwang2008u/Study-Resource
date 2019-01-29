@@ -1,14 +1,14 @@
 我关注的或者Fork的库内容记录,不能做资源收集狂,都要学习的
+
 =======================================================================
-
 # 1. Deep Learning Resource
-##中文自然语言处理资料库
-fork: https://github.com/davidwang2008u/Awesome-Chinese-NLP
-https://github.com/crownpku/Awesome-Chinese-NLP
+### 中文自然语言处理资料库
+-fork: https://github.com/davidwang2008u/Awesome-Chinese-NLP
+-https://github.com/crownpku/Awesome-Chinese-NLP
 
-## 清华的开源项目 信息抽取
-fork: https://github.com/davidwang2008u/OpenNRE
-https://github.com/thunlp/OpenNRE
+### 清华的开源项目 信息抽取
+-fork: https://github.com/davidwang2008u/OpenNRE
+-https://github.com/thunlp/OpenNRE
 
 ## 机器学习项目发布LifeCycle
 fork: https://github.com/davidwang2008u/mlflow
