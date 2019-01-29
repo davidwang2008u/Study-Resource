@@ -14,6 +14,7 @@
 - https://github.com/davidwang2008u/mlflow
 - https://github.com/mlflow/mlflow
 
+
 ### 软件知识图谱
 - https://github.com/davidwang2008u/intellide-graph
 - https://github.com/davidwang2008u/Information-Extraction-Chinese
@@ -25,7 +26,12 @@
 - BERT信息抽取 https://github.com/sakuranew/BERT-AttributeExtraction
 - 中文分词  https://github.com/hankcs/ID-CNN-CWS
 - 中文信息抽取 https://github.com/crownpku/Information-Extraction-Chinese
-
+- Sentence Classification https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras
+- 知识图谱文档 https://github.com/memect/kg-beijing
+- KG https://github.com/graknlabs/grakn
+- https://github.com/careerbuilder/semantic-knowledge-graph
+- text localization and recognition https://github.com/chongyangtao/Awesome-Scene-Text-Recognition
+- ETL框架 https://github.com/pawl/awesome-etl
 
 
 ### 语音
@@ -39,6 +45,11 @@
 https://github.com/tensorflow/adanet
 - Google AI https://github.com/google-research/google-research
 
+### LSTM
+- LSTM https://github.com/jaungiers/LSTM-Neural-Network-for-Time-Series-Prediction
+- Prophet https://github.com/facebook/prophet
+- https://github.com/watsonyanghx/CNN_LSTM_CTC_Tensorflow
+
 
 
 ### R-CNN
@@ -49,17 +60,29 @@ https://github.com/tensorflow/adanet
 - 多区域检测 https://github.com/CMU-Perceptual-Computing-Lab/openpose
 - 3D检测 https://github.com/facebookresearch/VideoPose3D
 - https://github.com/kracwarlock/action-recognition-visual-attention
+- Anomaly Detection Learning Resources https://github.com/yzhao062/anomaly-detection-resources
+- https://github.com/ArunMichaelDsouza/tensorflow-image-detection
+
+
 
 ### 中文处理
 - 资源 https://github.com/davidwang2008u/funNLP
 - 文本分类 https://github.com/davidwang2008u/text-classification-cnn-rnn
 - 自然语言资料 https://github.com/crownpku/Awesome-Chinese-NLP
+- BERT https://github.com/google-research/bert
+- FastText https://github.com/facebookresearch/fastText
+- Gensim https://github.com/RaRe-Technologies/gensim
 
+### GAN
+- https://github.com/tensorflow/magenta
+- https://github.com/umbrellabeach/music-generation-with-DL
+- https://github.com/ybayle/awesome-deep-learning-music
+- 
 
+### reinforcement learning algorithms
+- https://github.com/google/dopamine
+- https://github.com/OlafenwaMoses/ImageAI
 
-### 其他资源
-- Deep Learning for Music (DL4M) https://github.com/davidwang2008u/awesome-deep-learning-music
-- AI课程,书籍,视频等 https://github.com/davidwang2008u/awesome-artificial-intelligence
 
 
 
@@ -67,6 +90,15 @@ https://github.com/tensorflow/adanet
 - https://github.com/davidwang2008u/opencv
 - 视觉相关机器学习 https://github.com/Ewenwan/MVision
 - 动作检测 https://github.com/dhvanikotak/Emotion-Detection-in-Videos
+- opencv samples https://github.com/spmallick/learnopencv
+
+### OCR
+- OCR https://github.com/tesseract-ocr/tesseract
+- https://github.com/pannous/tensorflow-ocr
+- https://github.com/opencv/opencv
+
+### 综合
+- https://github.com/autorope/donkeycar
 
 
 # 2. TensorFlow资料
@@ -77,10 +109,22 @@ https://github.com/tensorflow/adanet
 - tensorFlow模板 https://github.com/davidwang2008u/tensorflow_template_application
 - Top https://github.com/davidwang2008u/TopDeepLearning
 - 源码分析tensorflow https://github.com/davidwang2008u/tensorflow
-- 
+- RCNN https://github.com/endernewton/tf-faster-rcnn
+- 中文文档 https://github.com/jikexueyuanwiki/tensorflow-zh
+- https://github.com/aymericdamien/TensorFlow-Examples
+- Models(包含slim) https://github.com/tensorflow/models
+- VGG https://github.com/machrisaa/tensorflow-vgg
+
 
 ### 2.1 tflearn 
 - https://github.com/tflearn/tflearn
+- https://github.com/tensorlayer/tensorlayer
+
+
+### 2.2 Keras
+- https://github.com/fchollet/deep-learning-models
+- https://github.com/keras-team/keras
+
 
 
 # 3. 国外教学课件
@@ -90,6 +134,25 @@ https://github.com/davidwang2008u/stanford-cs-230-deep-learning
 https://github.com/zeusees/HyperDL-Tutorial
 - 
 
+# 4. Resource
+- Deep Learning for Music (DL4M) https://github.com/davidwang2008u/awesome-deep-learning-music
+- AI课程,书籍,视频等 https://github.com/davidwang2008u/awesome-artificial-intelligence
+- Pandas https://github.com/pandas-dev/pandas
+- Automated machine learning for analytics & production 
+https://github.com/ClimbsRocks/auto_ml
+- https://github.com/EpistasisLab/tpot
+- feature tools https://github.com/Featuretools/featuretools
+- A list of popular github projects related to deep learning 
+https://github.com/aymericdamien/TopDeepLearning
+- https://github.com/owainlewis/awesome-artificial-intelligence
+- https://github.com/EderSantana/awesomeMLmath
+
+# 8. Security
+- https://github.com/WhaleShark-Team/cobra
+
+
+# 9. MySQL
+- https://github.com/twitter-forks/mysql
 
 # 10. Stock Resource
 - Fork: https://github.com/davidwang2008u/Data-Analysis
@@ -101,15 +164,18 @@ https://github.com/zeusees/HyperDL-Tutorial
 
 #### QCon历年 https://github.com/QConChina
 
+### 11.1 知识仓库
+- https://github.com/wxyyxc1992/Developer-Zero-To-Mastery
+- 吴恩达笔记 https://github.com/fengdu78/deeplearning_ai_books
+
+
 # 12. 其他工具
 - 阿里p3c https://github.com/davidwang2008u/p3c
 - Dubbo https://github.com/davidwang2008u/incubator-dubbo
-- Spring-boot https://github.com/davidwang2008u/spring-boot
 - jacoco https://github.com/jacoco/jacoco
 - jenkins API https://github.com/davidwang2008u/java-client-api
 - Wala https://github.com/davidwang2008u/WALA
 - pinpoint https://github.com/davidwang2008u/pinpoint
-- Spring笔记 https://github.com/davidwang2008u/Spring
 - 部署工具ansible  https://github.com/davidwang2008u/ansible
 - react https://github.com/facebook/react
 - 数据库mock工具 https://github.com/davidwang2008u/dummyjdbc
@@ -118,6 +184,9 @@ https://github.com/zeusees/HyperDL-Tutorial
 - openGrok代码索引服务 https://github.com/davidwang2008u/OpenGrok
 - cat https://github.com/dianping/cat
 - 故障演练 https://github.com/Netflix/SimianArmy
+- DB tunner https://github.com/cmu-db/ottertune
+- netty https://github.com/netty/netty
+- kafka https://github.com/apache/kafka
 
 
 ### 12.1 .net工具
@@ -126,7 +195,12 @@ https://github.com/zeusees/HyperDL-Tutorial
 - .net hook https://github.com/davidwang2008u/DotNetDetour
 - cecil https://github.com/davidwang2008u/cecil
 - .net基准测试 https://github.com/dotnet/BenchmarkDotNet
+- PerfView https://github.com/Microsoft/perfview
 
+### 12.2 Spring
+- Spring笔记 https://github.com/davidwang2008u/Spring
+- https://github.com/spring-projects/spring-boot
+- Spring-boot https://github.com/davidwang2008u/spring-boot
 
 # 13. JDK
 - OpenJDK https://github.com/davidwang2008u/openjdk
@@ -134,6 +208,12 @@ https://github.com/zeusees/HyperDL-Tutorial
 - Java诊断工具 https://github.com/davidwang2008u/greys-anatomy
 - Plugin Framework for Java (PF4J) https://github.com/pf4j/pf4j
 
+### 13.1 Java底层
+- Spoon https://github.com/INRIA/spoon
+- https://github.com/secure-software-engineering/FlowDroid
+- https://github.com/bitblaze-fuzzball/fuzzball
+- https://github.com/angr/angr
+- https://github.com/star-finder/jpf-symbc
 
 
 # 14. 云
