@@ -54,16 +54,22 @@ https://github.com/tensorflow/adanet
 
 
 
-### R-CNN
+### R-CNN 对象检测
 - 异常/不规则检测的资源 https://github.com/davidwang2008u/anomaly-detection-resources
 - https://github.com/davidwang2008u/awesome-action-recognition
 - YOLO https://github.com/davidwang2008u/tensorflow-yolo
 - YOLO3 https://github.com/qqwweee/keras-yolo3
-- 多区域检测 https://github.com/CMU-Perceptual-Computing-Lab/openpose
 - 3D检测 https://github.com/facebookresearch/VideoPose3D
 - https://github.com/kracwarlock/action-recognition-visual-attention
 - Anomaly Detection Learning Resources https://github.com/yzhao062/anomaly-detection-resources
 - https://github.com/ArunMichaelDsouza/tensorflow-image-detection
+- Bottom-up Object Detection by Grouping Extreme and Center Points(pytorch)
+https://github.com/xingyizhou/ExtremeNet
+
+### 多人多区域检测
+- 多人解析 https://github.com/ZhaoJ9014/Multi-Human-Parsing
+- 实时多人检测(身体,手,脚等等) https://github.com/CMU-Perceptual-Computing-Lab/openpose_unity_plugin
+- 多区域检测 https://github.com/CMU-Perceptual-Computing-Lab/openpose
 
 
 
@@ -83,7 +89,8 @@ https://github.com/tensorflow/adanet
 - https://github.com/tensorflow/magenta
 - https://github.com/umbrellabeach/music-generation-with-DL
 - https://github.com/ybayle/awesome-deep-learning-music
-- 
+- ECCV18 Workshops - Enhanced SRGAN. Champion PIRM Challenge on Perceptual Super-Resolution (Third Region)
+https://github.com/xinntao/ESRGAN
 
 ### reinforcement learning algorithms
 - https://github.com/google/dopamine
