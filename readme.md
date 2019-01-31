@@ -20,6 +20,7 @@
 
 ### 软件知识图谱
 - https://github.com/davidwang2008u/intellide-graph
+<br>实际可运行项目,Java开发
 - https://github.com/davidwang2008u/Information-Extraction-Chinese
 - fuzzy matching https://github.com/dedupeio/dedupe
 - 实体评估和错误分析工具 https://github.com/wikilinks/neleval
