@@ -14,11 +14,10 @@
 #### 中文自然语言处理资料库
 - https://github.com/davidwang2008u/Awesome-Chinese-NLP
 <br> https://github.com/crownpku/Awesome-Chinese-NLP
-
-#### 中文处理
 - 资源 https://github.com/davidwang2008u/funNLP
+
+#### 文本分类代码库
 - 文本分类 https://github.com/davidwang2008u/text-classification-cnn-rnn
-- 自然语言资料 https://github.com/crownpku/Awesome-Chinese-NLP
 - FastText https://github.com/facebookresearch/fastText
 - Gensim https://github.com/RaRe-Technologies/gensim
 - 中文分类 https://github.com/gaussic/text-classification-cnn-rnn
