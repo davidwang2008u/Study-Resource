@@ -19,6 +19,11 @@
 
 
 ### 软件知识图谱
+#### Stanford NLP
+- https://github.com/stanfordnlp/CoreNLP
+- https://github.com/stanfordnlp/python-stanford-corenlp
+
+#### NLP中文
 - https://github.com/davidwang2008u/intellide-graph
 <br>实际可运行项目,Java开发
 - https://github.com/davidwang2008u/Information-Extraction-Chinese
