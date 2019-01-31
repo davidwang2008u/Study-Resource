@@ -3,15 +3,6 @@
 =======================================================================
 # 1. Deep Learning Resource
 
-### 中文自然语言处理资料库
-- https://github.com/davidwang2008u/Awesome-Chinese-NLP
-- https://github.com/crownpku/Awesome-Chinese-NLP
-
-
-### 清华的开源项目 信息抽取
-- https://github.com/davidwang2008u/OpenNRE
-- https://github.com/thunlp/OpenNRE
-
 
 ### 机器学习项目发布LifeCycle
 - https://github.com/davidwang2008u/mlflow
@@ -19,9 +10,22 @@
 
 
 ### 软件知识图谱
+https://github.com/HIT-SCIR/ltp
+
+#### 中文自然语言处理资料库
+- https://github.com/davidwang2008u/Awesome-Chinese-NLP
+<br> https://github.com/crownpku/Awesome-Chinese-NLP
+
 #### Stanford NLP
 - https://github.com/stanfordnlp/CoreNLP
 - https://github.com/stanfordnlp/python-stanford-corenlp
+
+### LTP 哈工大语言技术平台
+- https://github.com/HIT-SCIR/ltp
+
+#### 清华的开源项目信息抽取
+- https://github.com/davidwang2008u/OpenNRE
+<br>https://github.com/thunlp/OpenNRE
 
 #### NLP中文
 - https://github.com/davidwang2008u/intellide-graph
@@ -54,7 +58,6 @@
 
 ### 语音
 - 百度语音  https://github.com/mozilla/DeepSpeech
-
 
 
 ### 深度学习资料
