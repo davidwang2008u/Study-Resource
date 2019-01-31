@@ -2,13 +2,16 @@
 
 =======================================================================
 # 1. Deep Learning Resource
+
 ### 中文自然语言处理资料库
 - https://github.com/davidwang2008u/Awesome-Chinese-NLP
 - https://github.com/crownpku/Awesome-Chinese-NLP
 
+
 ### 清华的开源项目 信息抽取
 - https://github.com/davidwang2008u/OpenNRE
 - https://github.com/thunlp/OpenNRE
+
 
 ### 机器学习项目发布LifeCycle
 - https://github.com/davidwang2008u/mlflow
@@ -19,7 +22,7 @@
 - https://github.com/davidwang2008u/intellide-graph
 - https://github.com/davidwang2008u/Information-Extraction-Chinese
 - fuzzy matching https://github.com/dedupeio/dedupe
-- 身体评估和错误分析工具 https://github.com/wikilinks/neleval
+- 实体评估和错误分析工具 https://github.com/wikilinks/neleval
 - KE https://github.com/thunlp/OpenKE
 - 信息抽取 https://github.com/thunlp/OpenNRE
 - 中文标注 https://github.com/deepwel/Chinese-Annotator
