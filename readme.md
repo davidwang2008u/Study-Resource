@@ -42,8 +42,15 @@
 - text localization and recognition https://github.com/chongyangtao/Awesome-Scene-Text-Recognition
 - ETL框架 https://github.com/pawl/awesome-etl
 - https://github.com/ksluckow/awesome-symbolic-execution
--
 
+#### HanLP
+- https://github.com/davidwang2008u/HanLP
+<br>自然语言处理 中文分词 词性标注 命名实体识别 依存句法分析 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁
+<br>https://github.com/hankcs/HanLP
+- https://github.com/hankcs/hanlp-lucene-plugin
+<br>HanLP中文分词Lucene插件，支持包括Solr在内的基于Lucene的系统
+- https://github.com/hankcs/pyhanlp
+<br>python接口
 
 ### 语音
 - 百度语音  https://github.com/mozilla/DeepSpeech
