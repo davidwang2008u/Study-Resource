@@ -15,6 +15,15 @@
 - https://github.com/davidwang2008u/Awesome-Chinese-NLP
 <br> https://github.com/crownpku/Awesome-Chinese-NLP
 
+#### 中文处理
+- 资源 https://github.com/davidwang2008u/funNLP
+- 文本分类 https://github.com/davidwang2008u/text-classification-cnn-rnn
+- 自然语言资料 https://github.com/crownpku/Awesome-Chinese-NLP
+- FastText https://github.com/facebookresearch/fastText
+- Gensim https://github.com/RaRe-Technologies/gensim
+- 中文分类 https://github.com/gaussic/text-classification-cnn-rnn
+- https://github.com/dennybritz/cnn-text-classification-tf
+
 #### Base Tools
 - NLTK https://github.com/nltk/nltk
 - https://github.com/stanfordnlp/CoreNLP
@@ -59,20 +68,20 @@
 - 百度语音  https://github.com/mozilla/DeepSpeech
 
 
-### 深度学习资料
+### 深度学习
+
+#### 资料
 - https://github.com/davidwang2008u/deep-learning-notes
 - Fast and flexible AutoML with learning guarantees.
 https://github.com/tensorflow/adanet
 - Google AI https://github.com/google-research/google-research
 
-### LSTM
+#### LSTM
 - LSTM https://github.com/jaungiers/LSTM-Neural-Network-for-Time-Series-Prediction
 - Prophet https://github.com/facebook/prophet
 - https://github.com/watsonyanghx/CNN_LSTM_CTC_Tensorflow
 
-
-
-### R-CNN 对象检测
+#### R-CNN 对象检测
 - 异常/不规则检测的资源 https://github.com/davidwang2008u/anomaly-detection-resources
 - https://github.com/davidwang2008u/awesome-action-recognition
 - YOLO https://github.com/davidwang2008u/tensorflow-yolo
@@ -84,25 +93,12 @@ https://github.com/tensorflow/adanet
 - Bottom-up Object Detection by Grouping Extreme and Center Points(pytorch)
 https://github.com/xingyizhou/ExtremeNet
 
-### 多人多区域检测
+#### 多人多区域检测
 - 多人解析 https://github.com/ZhaoJ9014/Multi-Human-Parsing
 - 实时多人检测(身体,手,脚等等) https://github.com/CMU-Perceptual-Computing-Lab/openpose_unity_plugin
 - 多区域检测 https://github.com/CMU-Perceptual-Computing-Lab/openpose
 
-
-
-### 中文处理
-- 资源 https://github.com/davidwang2008u/funNLP
-- 文本分类 https://github.com/davidwang2008u/text-classification-cnn-rnn
-- 自然语言资料 https://github.com/crownpku/Awesome-Chinese-NLP
-- FastText https://github.com/facebookresearch/fastText
-- Gensim https://github.com/RaRe-Technologies/gensim
-- 中文分类 https://github.com/gaussic/text-classification-cnn-rnn
-- https://github.com/dennybritz/cnn-text-classification-tf
-
-
-
-### GAN
+#### GAN
 - https://github.com/tensorflow/magenta
 - https://github.com/umbrellabeach/music-generation-with-DL
 - https://github.com/ybayle/awesome-deep-learning-music
