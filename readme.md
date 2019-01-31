@@ -20,7 +20,7 @@ https://github.com/HIT-SCIR/ltp
 - https://github.com/stanfordnlp/CoreNLP
 - https://github.com/stanfordnlp/python-stanford-corenlp
 
-### LTP 哈工大语言技术平台
+#### LTP 哈工大语言技术平台
 - https://github.com/HIT-SCIR/ltp
 
 #### 清华的开源项目信息抽取
