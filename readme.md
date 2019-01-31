@@ -9,23 +9,23 @@
 - https://github.com/mlflow/mlflow
 
 
-### 软件知识图谱
-https://github.com/HIT-SCIR/ltp
+### 软件知识图谱和自然语言处理
 
 #### 中文自然语言处理资料库
 - https://github.com/davidwang2008u/Awesome-Chinese-NLP
 <br> https://github.com/crownpku/Awesome-Chinese-NLP
 
-#### Stanford NLP
+#### Base Tools
+- NLTK https://github.com/nltk/nltk
 - https://github.com/stanfordnlp/CoreNLP
+<br>Stanford NLP
 - https://github.com/stanfordnlp/python-stanford-corenlp
-
-#### LTP 哈工大语言技术平台
 - https://github.com/HIT-SCIR/ltp
-
-#### 清华的开源项目信息抽取
+<br>LTP 哈工大语言技术平台
 - https://github.com/davidwang2008u/OpenNRE
-<br>https://github.com/thunlp/OpenNRE
+<br>https://github.com/thunlp/OpenNRE 清华的开源项目信息抽取
+- BERT https://github.com/google-research/bert
+- BERT信息抽取 https://github.com/sakuranew/BERT-AttributeExtraction
 
 #### NLP中文
 - https://github.com/davidwang2008u/intellide-graph
@@ -36,7 +36,6 @@ https://github.com/HIT-SCIR/ltp
 - KE https://github.com/thunlp/OpenKE
 - 信息抽取 https://github.com/thunlp/OpenNRE
 - 中文标注 https://github.com/deepwel/Chinese-Annotator
-- BERT信息抽取 https://github.com/sakuranew/BERT-AttributeExtraction
 - 中文分词  https://github.com/hankcs/ID-CNN-CWS
 - 中文信息抽取 https://github.com/crownpku/Information-Extraction-Chinese
 - Sentence Classification https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras
@@ -96,7 +95,6 @@ https://github.com/xingyizhou/ExtremeNet
 - 资源 https://github.com/davidwang2008u/funNLP
 - 文本分类 https://github.com/davidwang2008u/text-classification-cnn-rnn
 - 自然语言资料 https://github.com/crownpku/Awesome-Chinese-NLP
-- BERT https://github.com/google-research/bert
 - FastText https://github.com/facebookresearch/fastText
 - Gensim https://github.com/RaRe-Technologies/gensim
 - 中文分类 https://github.com/gaussic/text-classification-cnn-rnn
