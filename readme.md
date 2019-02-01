@@ -45,10 +45,8 @@
 <br>davidwang2008u/Agriculture_KnowledgeGraph
 
 #### NER
-- 信息抽取 https://github.com/thunlp/OpenNRE
 - fuzzy matching https://github.com/dedupeio/dedupe
-- https://github.com/davidwang2008u/OpenNRE
-> https://github.com/thunlp/OpenNRE 清华的开源项目信息抽取
+- https://github.com/davidwang2008u/OpenNRE fork: https://github.com/thunlp/OpenNRE
 
 #### RE
 - https://github.com/topics/relation-extraction
