@@ -31,8 +31,6 @@
   https://github.com/stanfordnlp/python-stanford-corenlp Official Python interface to CoreNLP using a bidirectional server-client interface.
 - https://github.com/HIT-SCIR/ltp
 > LTP 哈工大语言技术平台
-- https://github.com/davidwang2008u/OpenNRE
-> https://github.com/thunlp/OpenNRE 清华的开源项目信息抽取
 - BERT https://github.com/google-research/bert
 > BERT信息抽取 https://github.com/sakuranew/BERT-AttributeExtraction
 
@@ -49,6 +47,8 @@
 > 中文信息抽取 https://github.com/crownpku/Information-Extraction-Chinese
 - 信息抽取 https://github.com/thunlp/OpenNRE
 - fuzzy matching https://github.com/dedupeio/dedupe
+- https://github.com/davidwang2008u/OpenNRE
+> https://github.com/thunlp/OpenNRE 清华的开源项目信息抽取
 
 #### RE
 - 
