@@ -45,9 +45,9 @@
 
 #### NER
 - fuzzy matching https://github.com/dedupeio/dedupe
-- https://github.com/davidwang2008u/OpenNRE fork: https://github.com/thunlp/OpenNRE
 
-#### RE
+#### NRE
+- https://github.com/davidwang2008u/OpenNRE fork: https://github.com/thunlp/OpenNRE
 - https://github.com/topics/relation-extraction
 - https://github.com/davidwang2008u/Information-Extraction-Chinese
 > 中文信息抽取 https://github.com/crownpku/Information-Extraction-Chinese
