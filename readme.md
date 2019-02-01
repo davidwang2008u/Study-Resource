@@ -51,6 +51,7 @@
 - Named Entity Recognition using multilayered bidirectional LSTM https://github.com/monikkinom/ner-lstm
 - coreNLP
 > https://nlp.stanford.edu/software/crf-faq.shtml
+- 基于tensorflow深度学习的中文的命名实体识别 https://github.com/shiyybua/NER
 - 中文NER https://github.com/zjy-ucas/ChineseNER
 
 #### NRE
