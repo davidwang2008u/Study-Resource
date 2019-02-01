@@ -41,17 +41,30 @@
 - 知识图谱文档 https://github.com/memect/kg-beijing
 - https://github.com/davidwang2008u/intellide-graph
 > 范例项目,Java开发,内容不多
+- 范例 https://github.com/qq547276542/Agriculture_KnowledgeGraph
+<br>davidwang2008u/Agriculture_KnowledgeGraph
 
 #### NER
-- https://github.com/davidwang2008u/Information-Extraction-Chinese
-> 中文信息抽取 https://github.com/crownpku/Information-Extraction-Chinese
 - 信息抽取 https://github.com/thunlp/OpenNRE
 - fuzzy matching https://github.com/dedupeio/dedupe
 - https://github.com/davidwang2008u/OpenNRE
 > https://github.com/thunlp/OpenNRE 清华的开源项目信息抽取
 
 #### RE
-- 
+- https://github.com/topics/relation-extraction
+- https://github.com/davidwang2008u/Information-Extraction-Chinese
+> 中文信息抽取 https://github.com/crownpku/Information-Extraction-Chinese
+- CNN https://github.com/hadyelsahar/CNN-RelationExtraction 
+- https://github.com/thunlp/NRE
+
+#### Attribute Extraction
+- https://github.com/sakuranew/BERT-AttributeExtraction
+
+#### Coreference Resolution
+- https://github.com/huggingface/neuralcoref
+
+#### Entity Disambiguation/Ontology Extraction/Knowledge Inference
+-
 
 #### ToDo
 - 实体评估和错误分析工具 https://github.com/wikilinks/neleval
