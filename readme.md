@@ -28,18 +28,17 @@
 - stanford nlp
 > https://github.com/stanfordnlp/CoreNLP Stanford CoreNLP: A Java suite of core NLP tools
   https://github.com/stanfordnlp/stanfordnlp Official Stanford NLP Python Library for Many Human Languages
-  
-- https://github.com/stanfordnlp/python-stanford-corenlp
+  https://github.com/stanfordnlp/python-stanford-corenlp Official Python interface to CoreNLP using a bidirectional server-client interface.
 - https://github.com/HIT-SCIR/ltp
-<br>LTP 哈工大语言技术平台
+> LTP 哈工大语言技术平台
 - https://github.com/davidwang2008u/OpenNRE
-<br>https://github.com/thunlp/OpenNRE 清华的开源项目信息抽取
+> https://github.com/thunlp/OpenNRE 清华的开源项目信息抽取
 - BERT https://github.com/google-research/bert
-- BERT信息抽取 https://github.com/sakuranew/BERT-AttributeExtraction
+> BERT信息抽取 https://github.com/sakuranew/BERT-AttributeExtraction
 
 #### NLP中文
 - https://github.com/davidwang2008u/intellide-graph
-<br>实际可运行项目,Java开发
+> 范例项目,Java开发,内容不多
 - https://github.com/davidwang2008u/Information-Extraction-Chinese
 - fuzzy matching https://github.com/dedupeio/dedupe
 - 实体评估和错误分析工具 https://github.com/wikilinks/neleval
