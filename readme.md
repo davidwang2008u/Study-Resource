@@ -15,7 +15,6 @@
 - https://github.com/davidwang2008u/Awesome-Chinese-NLP
 <br> https://github.com/crownpku/Awesome-Chinese-NLP
 - 资源 https://github.com/davidwang2008u/funNLP
-- 知识图谱文档 https://github.com/memect/kg-beijing
 
 #### 文本分类代码库
 - 文本分类 https://github.com/davidwang2008u/text-classification-cnn-rnn
@@ -40,20 +39,21 @@
 #### 分词
 - 中文分词  https://github.com/hankcs/ID-CNN-CWS
 
-#### 知识图谱和
+### 知识图谱
+- 知识图谱文档 https://github.com/memect/kg-beijing
 - https://github.com/davidwang2008u/intellide-graph
 > 范例项目,Java开发,内容不多
 
-##### NER
+#### NER
 - https://github.com/davidwang2008u/Information-Extraction-Chinese
 > 中文信息抽取 https://github.com/crownpku/Information-Extraction-Chinese
 - 信息抽取 https://github.com/thunlp/OpenNRE
 - fuzzy matching https://github.com/dedupeio/dedupe
 
-##### RE
+#### RE
 - 
 
-##### ToDo
+#### ToDo
 - 实体评估和错误分析工具 https://github.com/wikilinks/neleval
 - KE https://github.com/thunlp/OpenKE
 - 中文标注 https://github.com/deepwel/Chinese-Annotator
