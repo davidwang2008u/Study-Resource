@@ -44,8 +44,12 @@
 - 范例 https://github.com/davidwang2008u/Agriculture_KnowledgeGraph
 
 #### NER
-- fuzzy matching https://github.com/dedupeio/dedupe
 - https://github.com/dat/stanford-ner
+- topics https://github.com/topics/named-entity-recognition
+- Named Entity Recognition Tool https://github.com/glample/tagger
+- Named Entity Recognition (LSTM + CRF) - Tensorflow https://github.com/guillaumegenthial/sequence_tagging
+- Named Entity Recognition using multilayered bidirectional LSTM https://github.com/monikkinom/ner-lstm
+- coreNLP
 
 #### NRE
 - https://github.com/davidwang2008u/OpenNRE fork: https://github.com/thunlp/OpenNRE
@@ -54,6 +58,7 @@
 > 中文信息抽取 https://github.com/crownpku/Information-Extraction-Chinese
 - CNN https://github.com/hadyelsahar/CNN-RelationExtraction 
 - https://github.com/thunlp/NRE
+- fuzzy matching https://github.com/dedupeio/dedupe
 
 #### Attribute Extraction
 - https://github.com/sakuranew/BERT-AttributeExtraction
