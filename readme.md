@@ -41,8 +41,7 @@
 - 知识图谱文档 https://github.com/memect/kg-beijing
 - https://github.com/davidwang2008u/intellide-graph
 > 范例项目,Java开发,内容不多
-- 范例 https://github.com/qq547276542/Agriculture_KnowledgeGraph
-<br>https://github.com/davidwang2008u/Agriculture_KnowledgeGraph
+- 范例 https://github.com/davidwang2008u/Agriculture_KnowledgeGraph
 
 #### NER
 - fuzzy matching https://github.com/dedupeio/dedupe
