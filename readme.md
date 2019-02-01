@@ -25,8 +25,10 @@
 
 #### Base Tools
 - NLTK https://github.com/nltk/nltk
-- https://github.com/stanfordnlp/CoreNLP
-<br>Stanford NLP
+- stanford nlp
+> https://github.com/stanfordnlp/CoreNLP Stanford CoreNLP: A Java suite of core NLP tools
+  https://github.com/stanfordnlp/stanfordnlp Official Stanford NLP Python Library for Many Human Languages
+  
 - https://github.com/stanfordnlp/python-stanford-corenlp
 - https://github.com/HIT-SCIR/ltp
 <br>LTP 哈工大语言技术平台
