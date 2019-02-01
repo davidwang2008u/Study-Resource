@@ -50,6 +50,7 @@
 - Named Entity Recognition (LSTM + CRF) - Tensorflow https://github.com/guillaumegenthial/sequence_tagging
 - Named Entity Recognition using multilayered bidirectional LSTM https://github.com/monikkinom/ner-lstm
 - coreNLP
+> https://nlp.stanford.edu/software/crf-faq.shtml
 - 中文NER https://github.com/zjy-ucas/ChineseNER
 
 #### NRE
