@@ -45,6 +45,7 @@
 
 #### NER
 - fuzzy matching https://github.com/dedupeio/dedupe
+- https://github.com/dat/stanford-ner
 
 #### NRE
 - https://github.com/davidwang2008u/OpenNRE fork: https://github.com/thunlp/OpenNRE
