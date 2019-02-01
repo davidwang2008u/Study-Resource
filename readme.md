@@ -9,12 +9,13 @@
 - https://github.com/mlflow/mlflow
 
 
-### 软件知识图谱和自然语言处理
+### 自然语言处理
 
 #### 中文自然语言处理资料库
 - https://github.com/davidwang2008u/Awesome-Chinese-NLP
 <br> https://github.com/crownpku/Awesome-Chinese-NLP
 - 资源 https://github.com/davidwang2008u/funNLP
+- 知识图谱文档 https://github.com/memect/kg-beijing
 
 #### 文本分类代码库
 - 文本分类 https://github.com/davidwang2008u/text-classification-cnn-rnn
@@ -36,19 +37,27 @@
 - BERT https://github.com/google-research/bert
 > BERT信息抽取 https://github.com/sakuranew/BERT-AttributeExtraction
 
-#### NLP中文
+#### 分词
+- 中文分词  https://github.com/hankcs/ID-CNN-CWS
+
+#### 知识图谱和
 - https://github.com/davidwang2008u/intellide-graph
 > 范例项目,Java开发,内容不多
+
+##### NER
 - https://github.com/davidwang2008u/Information-Extraction-Chinese
+> 中文信息抽取 https://github.com/crownpku/Information-Extraction-Chinese
+- 信息抽取 https://github.com/thunlp/OpenNRE
 - fuzzy matching https://github.com/dedupeio/dedupe
+
+##### RE
+- 
+
+##### ToDo
 - 实体评估和错误分析工具 https://github.com/wikilinks/neleval
 - KE https://github.com/thunlp/OpenKE
-- 信息抽取 https://github.com/thunlp/OpenNRE
 - 中文标注 https://github.com/deepwel/Chinese-Annotator
-- 中文分词  https://github.com/hankcs/ID-CNN-CWS
-- 中文信息抽取 https://github.com/crownpku/Information-Extraction-Chinese
 - Sentence Classification https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras
-- 知识图谱文档 https://github.com/memect/kg-beijing
 - KG https://github.com/graknlabs/grakn
 - https://github.com/careerbuilder/semantic-knowledge-graph
 - text localization and recognition https://github.com/chongyangtao/Awesome-Scene-Text-Recognition
@@ -57,15 +66,12 @@
 
 #### HanLP
 - https://github.com/davidwang2008u/HanLP
-<br>自然语言处理 中文分词 词性标注 命名实体识别 依存句法分析 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁
-<br>https://github.com/hankcs/HanLP
+> 自然语言处理 中文分词 词性标注 命名实体识别 依存句法分析 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁
+https://github.com/hankcs/HanLP
 - https://github.com/hankcs/hanlp-lucene-plugin
-<br>HanLP中文分词Lucene插件，支持包括Solr在内的基于Lucene的系统
+> HanLP中文分词Lucene插件，支持包括Solr在内的基于Lucene的系统
 - https://github.com/hankcs/pyhanlp
-<br>python接口
-
-### 语音
-- 百度语音  https://github.com/mozilla/DeepSpeech
+> python接口
 
 
 ### 深度学习
@@ -111,12 +117,13 @@ https://github.com/xinntao/ESRGAN
 
 
 
-
-### 图片视频处理
+### 图片视频语音处理
 - https://github.com/davidwang2008u/opencv
 - 视觉相关机器学习 https://github.com/Ewenwan/MVision
 - 动作检测 https://github.com/dhvanikotak/Emotion-Detection-in-Videos
 - opencv samples https://github.com/spmallick/learnopencv
+- 百度语音  https://github.com/mozilla/DeepSpeech
+
 
 ### OCR
 - OCR https://github.com/tesseract-ocr/tesseract
