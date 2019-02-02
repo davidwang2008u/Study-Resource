@@ -82,6 +82,8 @@
 - text localization and recognition https://github.com/chongyangtao/Awesome-Scene-Text-Recognition
 - ETL框架 https://github.com/pawl/awesome-etl
 - https://github.com/ksluckow/awesome-symbolic-execution
+- GloVec https://github.com/eclipse-du/glove_py_model_load/blob/master/glove_dist.py
+
 
 #### HanLP
 - https://github.com/davidwang2008u/HanLP
