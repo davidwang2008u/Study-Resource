@@ -9,3 +9,6 @@
 ## QA
 ### SonarQube Resource
 - Sonar Java https://github.com/SonarSource/sonar-java
+
+### GitOPS 
+- The GitOps Kubernetes operator https://github.com/weaveworks/flux
