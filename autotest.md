@@ -13,3 +13,4 @@
 ### GitOPS 
 - The GitOps Kubernetes operator https://github.com/weaveworks/flux
 - document https://docs.gitlab.com/ee/ci/quick_start/
+- yaml https://www.ibm.com/developerworks/cn/xml/x-cn-yamlintro/index.html
