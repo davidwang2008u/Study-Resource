@@ -16,6 +16,8 @@
 > https://docs.gitlab.com/ee/ci/yaml/README.html
 >
 - yaml https://www.ibm.com/developerworks/cn/xml/x-cn-yamlintro/index.html
+- Jenkins file https://jenkins.io/zh/doc/book/pipeline/jenkinsfile/
+
 
 ### Docker
 - Docker Compose https://docs.docker.com/compose/
