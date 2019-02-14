@@ -23,4 +23,11 @@
 > Guns基于SpringBoot 2，致力于做更简洁的后台管理系统，完美整合springmvc + shiro + mybatis-plus + beetl!Guns项目代码简洁，注释丰富，上手容易，同时Guns包含许多基础模块(用户管理，角色管理，部门管理，字典管理等10个模块)，可以直接作为一个后台管理系统的脚手架!
 - xmall https://github.com/Exrick/xmall
 > 基于SOA架构的分布式电商购物商城 前后端分离 前台商城:Vue全家桶 后台管理系统: Dubbo/SSM/Elasticsearch/Redis/MySQL/ActiveMQ/Shiro/Zookeeper等
+- https://github.com/zhangkaitao/es
+> JavaEE项目开发脚手架（亿级流量网站架构核心技术） 
+- https://github.com/xubinux/xbin-store
+> 类似京东的站点
+- https://github.com/sanluan/PublicCMS
+> Public CMS是采用2019年最新主流技术开发的开源JAVA CMS产品。架构科学，SEO友好，轻松支撑千万数据、千万PV；目前已经拥有全球0.002%的用户，诸多明星网站案例。提供免费版本产品、免费技术支持，为您快速建站，建设大规模站点提供强大驱动，也是企业级项目产品原型的良好选择。
+
 
