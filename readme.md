@@ -44,6 +44,7 @@
 - https://github.com/davidwang2008u/intellide-graph
 > 范例项目,Java开发,内容不多
 - 范例 https://github.com/davidwang2008u/Agriculture_KnowledgeGraph
+- Grakn Core: The Knowledge Graph https://github.com/graknlabs/grakn
 
 #### NER
 - https://github.com/dat/stanford-ner
@@ -68,8 +69,12 @@
 #### Attribute Extraction
 - https://github.com/sakuranew/BERT-AttributeExtraction
 
-#### Coreference Resolution
+#### Coreference Resolution 共指消解
 - https://github.com/huggingface/neuralcoref
+
+#### Entity Disambiguation 实体消岐
+- https://github.com/dice-group/AGDISTIS
+- https://github.com/wikilinks/neleval
 
 #### Entity Disambiguation/Ontology Extraction/Knowledge Inference
 -
@@ -99,6 +104,8 @@ https://github.com/hankcs/HanLP
 #### Language Models 
 - https://github.com/openai/gpt-2
 > 语言AI模型！编故事以假乱真，问答翻译写摘要都行，横扫各大语言建模任务
+
+
 
 
 ### 深度学习
