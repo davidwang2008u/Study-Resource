@@ -15,6 +15,8 @@
 - https://github.com/davidwang2008u/Awesome-Chinese-NLP
 <br> https://github.com/crownpku/Awesome-Chinese-NLP
 - 资源 https://github.com/davidwang2008u/funNLP
+- 大规模中文自然语言处理语料 https://github.com/brightmart/nlp_chinese_corpus
+
 
 #### 文本分类代码库
 - 文本分类 https://github.com/davidwang2008u/text-classification-cnn-rnn
@@ -72,10 +74,6 @@
 #### Entity Disambiguation/Ontology Extraction/Knowledge Inference
 -
 
-#### Language Models 
-- https://github.com/openai/gpt-2
-> 语言AI模型！编故事以假乱真，问答翻译写摘要都行，横扫各大语言建模任务
-
 #### ToDo
 - 实体评估和错误分析工具 https://github.com/wikilinks/neleval
 - KE https://github.com/thunlp/OpenKE
@@ -97,6 +95,10 @@ https://github.com/hankcs/HanLP
 > HanLP中文分词Lucene插件，支持包括Solr在内的基于Lucene的系统
 - https://github.com/hankcs/pyhanlp
 > python接口
+
+#### Language Models 
+- https://github.com/openai/gpt-2
+> 语言AI模型！编故事以假乱真，问答翻译写摘要都行，横扫各大语言建模任务
 
 
 ### 深度学习
