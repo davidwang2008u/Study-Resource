@@ -72,6 +72,10 @@
 #### Entity Disambiguation/Ontology Extraction/Knowledge Inference
 -
 
+#### Language Models 
+- https://github.com/openai/gpt-2
+> 语言AI模型！编故事以假乱真，问答翻译写摘要都行，横扫各大语言建模任务
+
 #### ToDo
 - 实体评估和错误分析工具 https://github.com/wikilinks/neleval
 - KE https://github.com/thunlp/OpenKE
