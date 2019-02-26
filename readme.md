@@ -4,10 +4,9 @@
 # 1. Deep Learning Resource
 
 
-### 机器学习项目发布LifeCycle
-- https://github.com/davidwang2008u/mlflow
-- https://github.com/mlflow/mlflow
-
+#### 总结
+- https://www.cnblogs.com/pinard/category/894692.html
+> 机器学习各类算法总结
 
 ### 自然语言处理
 
@@ -105,6 +104,9 @@ https://github.com/hankcs/HanLP
 - https://github.com/openai/gpt-2
 > 语言AI模型！编故事以假乱真，问答翻译写摘要都行，横扫各大语言建模任务
 
+#### 机器学习项目发布LifeCycle
+- https://github.com/davidwang2008u/mlflow
+- https://github.com/mlflow/mlflow
 
 
 
