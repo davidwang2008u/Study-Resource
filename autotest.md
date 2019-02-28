@@ -26,7 +26,7 @@
 
 # Graph DB
 - Neo4j https://github.com/neo4j/neo4j
-> 图形数据库是以图形结构的形式存储数据的数据库。 它以节点，关系和属性的形式存储应用程序的数据。 正如RDBMS以表的“行，列”的形式存储数据，GDBMS以“图形”的形式存储数据。https://www.w3cschool.cn/neo4j/
+<br> 图形数据库是以图形结构的形式存储数据的数据库。 它以节点，关系和属性的形式存储应用程序的数据。 正如RDBMS以表的“行，列”的形式存储数据，GDBMS以“图形”的形式存储数据。https://www.w3cschool.cn/neo4j/
 
 ## QA
 ### SonarQube Resource
@@ -36,7 +36,6 @@
 - The GitOps Kubernetes operator https://github.com/weaveworks/flux
 - document https://docs.gitlab.com/ee/ci/quick_start/
 > https://docs.gitlab.com/ee/ci/yaml/README.html
->
 - yaml https://www.ibm.com/developerworks/cn/xml/x-cn-yamlintro/index.html
 - Jenkins file https://jenkins.io/zh/doc/book/pipeline/jenkinsfile/
 
@@ -46,9 +45,9 @@
 
 ### 可视化
 - https://antv.alipay.com/zh-cn/g6/2.x/demo/net/xiaomi.html
-> AntV 是蚂蚁金服全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、无限可能的数据可视化最佳实践
+AntV 是蚂蚁金服全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、无限可能的数据可视化最佳实践
 - https://github.com/nathanpeck/clui
-> Command Line UI toolkit for Node.js
+Command Line UI toolkit for Node.js
 
 
 
