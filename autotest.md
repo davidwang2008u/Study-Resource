@@ -1,16 +1,12 @@
 # java source
-- jsoup https://github.com/jhy/jsoup
-> java html url 解析器
+- jsoup https://github.com/jhy/jsoup   java html url 解析器
 
 ### Java WebSite Framework
 ####
 #### HTML Front-end Template
-- https://github.com/ColorlibHQ/gentelella
-> Free Bootstrap 3 Admin Template
-- https://github.com/h5bp/html5-boilerplate
-> HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-- https://github.com/davidwang2008u/html-templates
-> 一些 html、bootstrap框架的后台模板集合
+- https://github.com/ColorlibHQ/gentelella  Free Bootstrap 3 Admin Template
+- https://github.com/h5bp/html5-boilerplate HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
+- https://github.com/davidwang2008u/html-templates  一些 html、bootstrap框架的后台模板集合
 - https://github.com/twbs/bootstrap
 - https://github.com/jquery/jquery
 #### SOA
@@ -19,18 +15,12 @@
 - https://github.com/alibaba/dubbo-spring-boot-starter
 - https://github.com/apache/incubator-dubbo-spring-boot-project
 #### OpenAPI
-- https://github.com/pf4j/pf4j
-> Plugin Framework for Java (PF4J)
-- https://blog.csdn.net/afandaafandaafanda/article/details/43083957
-> Equinox 和 OSGI 介绍
-- https://github.com/EduardoPires/EquinoxProject
-> Full ASP.NET Core 2.2 application with DDD, CQRS and Event Sourcing
-- https://github.com/restlet/restlet-framework-java
-> rest api
-- https://github.com/linkedin/rest.li
-> Rest.li is a REST+JSON framework for building robust, scalable service architectures using dynamic discovery and simple asynchronous APIs.
-- https://www.eclipse.org/equinox/
-> equinox
+- https://github.com/pf4j/pf4j  Plugin Framework for Java (PF4J)
+- https://blog.csdn.net/afandaafandaafanda/article/details/43083957   Equinox 和 OSGI 介绍
+- https://github.com/EduardoPires/EquinoxProject  Full ASP.NET Core 2.2 application with DDD, CQRS and Event Sourcing
+- https://github.com/restlet/restlet-framework-java rest api
+- https://github.com/linkedin/rest.li Rest.li is a REST+JSON framework for building robust, scalable service architectures using dynamic discovery and simple asynchronous APIs.
+- https://www.eclipse.org/equinox/    equinox
 
 
 
