@@ -2,7 +2,14 @@
 - jsoup https://github.com/jhy/jsoup   java html url 解析器
 
 ### Java WebSite Framework
-####
+#### DEMO
+- https://github.com/davidwang2008u/xmall 基于SOA架构的分布式电商购物商城 前后端分离 前台商城:Vue全家桶 后台管理系统:Dubbo/SSM/Elasticsearch/Redis/MySQL/ActiveMQ/Shiro/Zookeeper等
+- https://github.com/davidwang2008u/mall mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于SpringBoot+MyBatis实现。 前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心、客户服务、帮助中心等模块。 后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。
+- https://github.com/huangshiyu13/webtemplete 网页模板
+- https://github.com/phachon/html-templates 一些 html、bootstrap框架的后台模板集合
+- https://github.com/sanluan/PublicCMS 
+
+
 #### HTML Front-end Template
 - https://github.com/ColorlibHQ/gentelella  Free Bootstrap 3 Admin Template
 - https://github.com/h5bp/html5-boilerplate HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
