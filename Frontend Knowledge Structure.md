@@ -1,7 +1,5 @@
-Frontend Knowledge Structure
-========
 ## 来源
-拷贝来自https://github.com/JacksonTian/fks
+! 拷贝来自https://github.com/JacksonTian/fks
 ![前端知识结构](https://raw.github.com/JacksonTian/fks/master/figures/fks.jpg)
 
 图片的形式具有诸多的不便。缺失源图的我们，无法为此图贡献些什么，随着时间的迁移，或许有些技术点会发生改变，所以有了这个GitHub项目。我们可以通过协作的方式来共同维护这个项目。Git的历史记录也可以见证前端行业的一些变迁。
