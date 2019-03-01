@@ -53,8 +53,10 @@ Command Line UI toolkit for Node.js
 - https://github.com/justjavac/awesome-wechat-weapp 微信小程序开发资源汇总
 - https://github.com/hangyan/docker-resources Docker资源汇总
 - https://github.com/opendigg/awesome-github-android-ui  安卓UI相关开源项目库汇总
+- https://github.com/dily3825002/awesome-blockchain 区块链白皮书、书籍、交易所、币种、自媒体等资源汇总 
+- https://github.com/davidwang2008u/technology-talk 汇总java生态圈常用技术框架、开源中间件，系统架构、项目管理、经典架构案例、数据库、常用三方库、线上运维等知识
+- https://github.com/caison/java-knowledge-mind-map 【seedlingseedlingJava服务端知识技能图谱】用思维脑图梳理汇总Java服务端知识技能
 - 
-
 
 
 
