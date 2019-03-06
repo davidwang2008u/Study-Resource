@@ -55,6 +55,8 @@
 AntV 是蚂蚁金服全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、无限可能的数据可视化最佳实践
 - https://github.com/nathanpeck/clui
 Command Line UI toolkit for Node.js
+#### WEBIDE
+- https://github.com/Coding/WebIDE
 
 ### 汇总资源
 - https://github.com/justjavac/awesome-wechat-weapp 微信小程序开发资源汇总
