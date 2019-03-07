@@ -67,6 +67,10 @@ Command Line UI toolkit for Node.js
 - https://github.com/caison/java-knowledge-mind-map 【seedlingseedlingJava服务端知识技能图谱】用思维脑图梳理汇总Java服务端知识技能
 - 
 
+### 动态规则引擎
+- https://github.com/NRules/NRules .NET
+- https://github.com/kiegroup/drools Java
+- https://github.com/kiegroup/jbpm a Business Process Management (BPM) Suite
 
 
 
