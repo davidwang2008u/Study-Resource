@@ -29,6 +29,11 @@
 - https://github.com/linkedin/rest.li Rest.li is a REST+JSON framework for building robust, scalable service architectures using dynamic discovery and simple asynchronous APIs.
 - https://www.eclipse.org/equinox/    equinox
 
+#### OpenAPI tools
+- https://github.com/swagger-api
+- https://github.com/swagger-api/swagger-core
+- https://github.com/swagger-api/swagger-codegen
+swagger-codegen contains a template-driven engine to generate documentation, API clients and server stubs in different languages by parsing your OpenAPI / Swagger definition. 
 
 
 # Graph DB
@@ -39,16 +44,6 @@
 ### SonarQube Resource
 - Sonar Java https://github.com/SonarSource/sonar-java
 
-### GitOPS 
-- The GitOps Kubernetes operator https://github.com/weaveworks/flux
-- document https://docs.gitlab.com/ee/ci/quick_start/
-> https://docs.gitlab.com/ee/ci/yaml/README.html
-- yaml https://www.ibm.com/developerworks/cn/xml/x-cn-yamlintro/index.html
-- Jenkins file https://jenkins.io/zh/doc/book/pipeline/jenkinsfile/
-
-
-### Docker
-- Docker Compose https://docs.docker.com/compose/
 
 ### 可视化
 - https://antv.alipay.com/zh-cn/g6/2.x/demo/net/xiaomi.html
