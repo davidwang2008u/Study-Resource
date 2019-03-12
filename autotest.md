@@ -28,6 +28,8 @@
 - https://github.com/restlet/restlet-framework-java rest api
 - https://github.com/linkedin/rest.li Rest.li is a REST+JSON framework for building robust, scalable service architectures using dynamic discovery and simple asynchronous APIs.
 - https://www.eclipse.org/equinox/    equinox
+- https://github.com/swagger-api/swagger-core
+
 
 #### OpenAPI tools
 - https://github.com/swagger-api
