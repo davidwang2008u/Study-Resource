@@ -18,3 +18,14 @@ DevOps-X 基于Kubernetes的全开源DevOps工具链
 CapitalOne DevOps Dashboard
 - https://github.com/meolu/walle-web
 walle - 瓦力 Devops开源项目代码部署平台
+
+#### GitOPS 
+- The GitOps Kubernetes operator https://github.com/weaveworks/flux
+- document https://docs.gitlab.com/ee/ci/quick_start/
+> https://docs.gitlab.com/ee/ci/yaml/README.html
+- yaml https://www.ibm.com/developerworks/cn/xml/x-cn-yamlintro/index.html
+- Jenkins file https://jenkins.io/zh/doc/book/pipeline/jenkinsfile/
+
+
+#### Docker
+- Docker Compose https://docs.docker.com/compose/
