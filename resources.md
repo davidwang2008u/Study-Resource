@@ -92,5 +92,116 @@ Create agents that monitor and act on your behalf. Your agents are standing by! 
 
 
 
+# 12. 其他工具
+- 阿里p3c https://github.com/davidwang2008u/p3c
+- Dubbo https://github.com/davidwang2008u/incubator-dubbo
+- jacoco https://github.com/jacoco/jacoco
+- Wala https://github.com/davidwang2008u/WALA
+- pinpoint https://github.com/davidwang2008u/pinpoint
+- 部署工具ansible  https://github.com/davidwang2008u/ansible
+- react https://github.com/facebook/react
+- DB tunner https://github.com/cmu-db/ottertune
+- netty https://github.com/netty/netty
+- https://github.com/tigerge000/sonar-java-custom-rules
+- google测试和mock框架 https://github.com/google/googletest
+- Windows Hook https://github.com/EasyHook/EasyHook
+
+
+### 12.1 .net工具
+- .net基准测试 https://github.com/dotnet/BenchmarkDotNet
+- PerfView https://github.com/Microsoft/perfview
+- https://github.com/Microsoft/DbgShell
+- https://github.com/x64dbg/x64dbg
+- https://github.com/southpolenator/WinDbgCs
+- https://github.com/swwwolf/wdbgark
+- https://github.com/AppMetrics/AppMetrics
+- https://github.com/nbuilder/nbuilder
+- https://github.com/garethdown44/nbuilder
+- https://github.com/PcapDotNet/Pcap.Net
+- https://github.com/jbevain/mono.reflection
+- https://github.com/lynnux/windbg_hilight
+- https://github.com/goldshtn/windbg-extensions
+- https://github.com/OpenCover/opencover
+- https://github.com/dotnet/roslyn
+
+
+### 12.2 .net底层工具
+- .net IL merge https://github.com/davidwang2008u/ILMerge
+- .net hook https://github.com/davidwang2008u/DotNetDetour
+- cecil https://github.com/davidwang2008u/cecil
+- https://github.com/denikson/Mono.Cecil.Inject
+- mono.reflection https://github.com/davidwang2008u/mono.reflection
+- https://github.com/corelan/windbglib
+- cecil https://github.com/jbevain/cecil
+- IL Spy https://github.com/icsharpcode/ILSpy
+- https://github.com/chmorgan/sharppcap
+- https://github.com/mono/debugger-libs
+- https://github.com/mono/mono
+- https://github.com/dotnet/core
+- https://github.com/Microsoft/dotnet
+- https://github.com/dotnet/coreclr
+
+
+### 12.3 Spring
+- Spring笔记 https://github.com/davidwang2008u/Spring
+- https://github.com/spring-projects/spring-boot
+- Spring-boot https://github.com/davidwang2008u/spring-boot
+- https://github.com/waylau/spring-framework-4-reference
+- https://github.com/spring-projects/spring-framework
+
+
+
+# 13. JDK
+- OpenJDK https://github.com/davidwang2008u/openjdk
+- JDK资源 https://github.com/davidwang2008u/OpenJDK-Research
+- Java诊断工具 https://github.com/davidwang2008u/greys-anatomy
+- Plugin Framework for Java (PF4J) https://github.com/pf4j/pf4j
+- https://github.com/unofficial-openjdk/openjdk
+
+
+### 13.1 Java底层
+- Spoon https://github.com/INRIA/spoon
+- https://github.com/secure-software-engineering/FlowDroid
+- https://github.com/bitblaze-fuzzball/fuzzball
+- https://github.com/angr/angr
+- https://github.com/star-finder/jpf-symbc
+- Soot https://github.com/Sable/soot
+- 静态分析 https://github.com/mre/awesome-static-analysis
+- BCEL https://github.com/apache/commons-bcel
+- https://github.com/naver/pinpoint
+- https://github.com/jboss-javassist/javassist
+
+
+# 14. 云
+- kubernets https://github.com/kubernetes/kubernetes
+- Gitops https://github.com/weaveworks/flux
+
+
+# 15. 电子书
+- 多学科 https://github.com/davidwang2008u/books
+- 计算机各类知识 https://github.com/xitu/gold-miner
+
+# 16. DevOps
+- https://github.com/elastic/elasticsearch
+- https://github.com/elastic/logstash
+- https://github.com/elastic/kibana
+- https://github.com/grafana/grafana
+- 数据库mock工具 https://github.com/davidwang2008u/dummyjdbc
+- 阿里的数据同步工具 https://github.com/davidwang2008u/DataX
+- 阿里的分布式数据库同步 https://github.com/davidwang2008u/otter
+- openGrok代码索引服务 https://github.com/davidwang2008u/OpenGrok
+- cat https://github.com/dianping/cat
+- 故障演练 https://github.com/Netflix/SimianArmy
+- https://github.com/jenkinsci/jenkins
+- kafka https://github.com/apache/kafka
+- jenkins API https://github.com/davidwang2008u/java-client-api
+- https://github.com/Microsoft/docker
+
+### 16.1 SonarQube
+- https://github.com/SonarSource/sonarqube
+- https://github.com/SonarSource/sonar-scanner-msbuild
+- https://github.com/SonarSource/sonar-dotnet
+
+
 
 
