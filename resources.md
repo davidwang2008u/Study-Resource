@@ -86,4 +86,11 @@ Flowchat等
 - https://github.com/qos-ch/slf4j  日志
 - 
 
+#### Other
+- https://github.com/huginn/huginn
+Create agents that monitor and act on your behalf. Your agents are standing by! 类似监控系统,或者Flow,监控某项数据变更时发送邮件或者执行某个webhook
+
+
+
+
 
