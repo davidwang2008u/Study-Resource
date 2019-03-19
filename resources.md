@@ -89,7 +89,7 @@ Flowchat等
 #### Other
 - https://github.com/huginn/huginn
 Create agents that monitor and act on your behalf. Your agents are standing by! 类似监控系统,或者Flow,监控某项数据变更时发送邮件或者执行某个webhook
-
+- https://github.com/muesli/beehive A flexible event/agent & automation system with lots of bees(试用)
 
 
 # 12. 其他工具
