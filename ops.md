@@ -32,7 +32,8 @@ The tool for beautiful monitoring and metric analytics & dashboards for Graphite
 - docker应用容器，用于快速部署，可以利用ansible成迁台机器的一键部署
 - Bootstrap前端框架，用于快速开发Web应用程序
 - Sencha touch用于开发跨平台移动Web 应用，支持图表、滑动、表单等组件
-
+- https://github.com/netdata/netdata
+一个功能看上去很是强大的实时监控系统  Real-time performance monitoring, done right!
 
 ### DevOPS
 #### 工具
