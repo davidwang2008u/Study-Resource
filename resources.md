@@ -218,5 +218,15 @@ Create agents that monitor and act on your behalf. Your agents are standing by! 
 - Sonar Java https://github.com/SonarSource/sonar-java
 
 
+# Test/QA
+#### Tools
+- https://github.com/topics/test-automation Topic
+- https://github.com/DevExpress/testcafe  A Node.js tool to automate end-to-end web testing. 
+- https://github.com/davidwang2008u/awesome-test-automation 按语言分类的自动化测试资源和框架
+- https://github.com/AirtestProject/Airtest AI的游戏或者APP的自动化测试框架
+- https://github.com/cypress-io/cypress  Fast, easy and reliable testing for anything that runs in a browser.
+
+
+
 
 
