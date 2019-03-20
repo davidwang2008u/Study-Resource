@@ -16,6 +16,35 @@
 - https://github.com/davidwang2008u/html-templates  一些 html、bootstrap框架的后台模板集合
 - https://github.com/twbs/bootstrap The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
 - https://github.com/jquery/jquery
+- https://github.com/keen/dashboards Dashboard的模板,基于bootstrap,star的量比较大
+- https://github.com/ColorlibHQ/gentelella Free Bootstrap 3 Admin Template
+- https://github.com/topics/html-template <b>github的topic</b>
+- https://github.com/topics/admin-dashboard <b>好资源,前几名都是很强大的工具</b>
+- - https://github.com/PanJiaChen/vue-element-admin 蛮牛B的,应该是国产
+- - https://github.com/tabler/tabler
+
+
+
+
+#### 可视化套件
+- https://antv.alipay.com/zh-cn/g6/2.x/demo/net/xiaomi.html
+AntV 是蚂蚁金服全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、无限可能的数据可视化最佳实践
+- https://github.com/nathanpeck/clui
+Command Line UI toolkit for Node.js
+- https://github.com/ant-design/ant-design
+A UI Design Language(Good 蚂蚁金服)
+- https://github.com/NorthwoodsSoftware/GoJS
+Flowchat等
+
+
+
+#### WEBIDE
+- https://github.com/Coding/WebIDE
+
+
+
+
+
 #### SOA
 - https://github.com/dubboclub/dubbokeeper dubbo服务管理以及监控系统
 - https://github.com/apache/incubator-dubbo Apache Dubbo (incubating) is a high-performance, java based, open source RPC framework. 
@@ -47,20 +76,6 @@ swagger-codegen contains a template-driven engine to generate documentation, API
 - Sonar Java https://github.com/SonarSource/sonar-java
 
 
-### 可视化
-- https://antv.alipay.com/zh-cn/g6/2.x/demo/net/xiaomi.html
-AntV 是蚂蚁金服全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、无限可能的数据可视化最佳实践
-- https://github.com/nathanpeck/clui
-Command Line UI toolkit for Node.js
-- https://github.com/ant-design/ant-design
-A UI Design Language(Good 蚂蚁金服)
-- https://github.com/NorthwoodsSoftware/GoJS
-Flowchat等
-
-
-
-#### WEBIDE
-- https://github.com/Coding/WebIDE
 
 
 ### 汇总资源
