@@ -103,13 +103,15 @@ swagger-codegen contains a template-driven engine to generate documentation, API
 - https://github.com/qos-ch/slf4j  日志
 - 
 
-#### Other
+#### 定制工具
 - https://github.com/huginn/huginn
 Create agents that monitor and act on your behalf. Your agents are standing by! 类似监控系统,或者Flow,监控某项数据变更时发送邮件或者执行某个webhook
-- https://github.com/muesli/beehive A flexible event/agent & automation system with lots of bees(试用)
+- https://github.com/muesli/beehive A flexible event/agent & automation system with lots of bees(消息监控和驱动)
+- https://github.com/gaia-pipeline/gaia (pipeline Build powerful pipelines in any programming language.)
 
 
-# 12. 其他工具
+
+#### 其他工具
 - 阿里p3c https://github.com/davidwang2008u/p3c
 - Dubbo https://github.com/davidwang2008u/incubator-dubbo
 - jacoco https://github.com/jacoco/jacoco
