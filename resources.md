@@ -14,7 +14,7 @@
 - https://github.com/ColorlibHQ/gentelella  Free Bootstrap 3 Admin Template
 - https://github.com/h5bp/html5-boilerplate HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
 - https://github.com/davidwang2008u/html-templates  一些 html、bootstrap框架的后台模板集合
-- https://github.com/twbs/bootstrap
+- https://github.com/twbs/bootstrap The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
 - https://github.com/jquery/jquery
 #### SOA
 - https://github.com/dubboclub/dubbokeeper dubbo服务管理以及监控系统
