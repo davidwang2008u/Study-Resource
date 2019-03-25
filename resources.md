@@ -92,8 +92,9 @@ swagger-codegen contains a template-driven engine to generate documentation, API
 - https://github.com/NRules/NRules .NET
 - https://github.com/kiegroup/drools Java
 - https://github.com/kiegroup/jbpm a Business Process Management (BPM) Suite
-
-
+- https://github.com/viewflow/viewflow
+- https://github.com/camunda/camunda-bpm-platform
+- https://github.com/cookpad/kuroko2
 
 
 
