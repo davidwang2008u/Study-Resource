@@ -50,6 +50,9 @@ Jumpserver是全球首款完全开源的堡垒机，是符合 4A 的专业运维
 - https://github.com/jumpserver/luna
 Angular4 project for web terminal
 - 自动化部署工具 Ruby开发,可以部署任何语言的项目 https://github.com/capistrano/capistrano
+- https://github.com/puppetlabs/puppet
+<br>Server automation framework and application 类似于远程管理的工具
+
 
 #### GitOPS 
 - The GitOps Kubernetes operator https://github.com/weaveworks/flux
