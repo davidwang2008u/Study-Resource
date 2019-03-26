@@ -49,7 +49,7 @@ walle - 瓦力 Devops开源项目代码部署平台
 Jumpserver是全球首款完全开源的堡垒机，是符合 4A 的专业运维审计系统
 - https://github.com/jumpserver/luna
 Angular4 project for web terminal
-
+- 自动化部署工具 Ruby开发,可以部署任何语言的项目 https://github.com/capistrano/capistrano
 
 #### GitOPS 
 - The GitOps Kubernetes operator https://github.com/weaveworks/flux
