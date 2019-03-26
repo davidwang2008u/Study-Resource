@@ -7,3 +7,11 @@
 #### maven的查询服务器 https://mvnrepository.com/
 #### 单元测试junit https://github.com/junit-team/junit4
 - 
+
+#### log
+##### slf4j
+- 文档 https://ddatsh.com/post/dev/java/java-log/
+
+##### log4j2
+- https://logging.apache.org/log4j/2.x/manual/configuration.html
+- 
