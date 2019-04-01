@@ -4,7 +4,8 @@
 - https://segmentfault.com/a/1190000009128277
 - https://segmentfault.com/a/1190000009128328
 - https://segmentfault.com/a/1190000009141079
-#### [Shell](https://github.com/beanshell/beanshell) JavaShell
+* [Shell](https://github.com/beanshell/beanshell) JavaShell
+* [Stapler Web Framework](https://github.com/stapler/stapler) Jenkins URL使用的类库
 
 #### maven的查询服务器 https://mvnrepository.com/
 #### 单元测试junit https://github.com/junit-team/junit4
