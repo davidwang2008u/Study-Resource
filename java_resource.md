@@ -12,3 +12,5 @@
 * [slf4j](https://ddatsh.com/post/dev/java/java-log/)SLF4J的文档 
 * [log4j2](https://logging.apache.org/log4j/2.x/manual/configuration.html) log4j2的配置
 
+#### 工具平台
+* [xxlJOB](https://github.com/xuxueli/xxl-job) A lightweight distributed task scheduling framework.（分布式任务调度平台XXL-JOB）
