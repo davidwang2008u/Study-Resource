@@ -7,6 +7,7 @@
 #### 总结
 - https://www.cnblogs.com/pinard/category/894692.html
 > 机器学习各类算法总结
+* 北大图书馆 https://github.com/lib-pku/libpku
 
 ### 自然语言处理
 
