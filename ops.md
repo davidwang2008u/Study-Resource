@@ -10,6 +10,8 @@ DevOps Scripts
 The tool for beautiful monitoring and metric analytics & dashboards for Graphite, InfluxDB & Prometheus & More
 - https://github.com/aqzt/kjyw
 快捷运维，代号kjyw，项目基于shell、python，运维脚本工具库，收集各类运维常用工具脚本，实现快速安装nginx、mysql、php、redis、nagios、运维经常使用的脚本等等..
+- Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty https://github.com/arachnys/cabot
+
 
 #### 开源监控产品与TSDB, 常见开源产品：Zabbix，Cacti，Nagios，Ganglia
 - https://github.com/alexanderzobnin/grafana-zabbix
