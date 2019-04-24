@@ -6,6 +6,7 @@ A curated list of awesome pipeline toolkits inspired by [Awesome Sysadmin](https
 新获取的资源
 --------------------------------
 * [StackStorm2](https://github.com/StackStorm/st2) StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation, security responses, troubleshooting, deployments, and more. Includes rules engine, workflow, 160 integration packs with 6000+ actions (see https://exchange.stackstorm.org) and ChatOps. 
+* st2运行使用的是Docker https://github.com/StackStorm/st2-docker
 
 Pipeline frameworks & libraries
 --------------------------------
