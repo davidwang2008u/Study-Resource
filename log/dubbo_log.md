@@ -15,6 +15,9 @@ dubbo-admin安装
 https://blog.csdn.net/u013142781/article/details/50396621
 * 下载及安装手册(readme.md就是)
 https://github.com/apache/incubator-dubbo-admin
+* dubbo admin swagger api
+http://localhost:8080/swagger-ui.html#/
+
 
 dubbo配置
 * Spring的配置
