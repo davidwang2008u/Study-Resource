@@ -16,6 +16,12 @@ https://blog.csdn.net/u013142781/article/details/50396621
 * 下载
 https://github.com/apache/incubator-dubbo-admin
 
+dubbo配置
+* Spring的配置
+https://www.cnblogs.com/chanshuyi/p/5144288.html
+* Spring Boot的配置
+https://github.com/apache/incubator-dubbo-spring-boot-project
+
 
 
 
