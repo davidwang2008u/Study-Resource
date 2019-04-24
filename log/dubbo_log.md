@@ -13,7 +13,7 @@ https://www.cnblogs.com/shanyou/p/3221990.html
 dubbo-admin安装
 * dubbo-admin管理平台搭建
 https://blog.csdn.net/u013142781/article/details/50396621
-* 下载
+* 下载及安装手册(readme.md就是)
 https://github.com/apache/incubator-dubbo-admin
 
 dubbo配置
