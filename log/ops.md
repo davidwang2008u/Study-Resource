@@ -62,7 +62,8 @@ Angular4 project for web terminal
 > https://docs.gitlab.com/ee/ci/yaml/README.html
 - yaml https://www.ibm.com/developerworks/cn/xml/x-cn-yamlintro/index.html
 - Jenkins file https://jenkins.io/zh/doc/book/pipeline/jenkinsfile/
-
+* GitLAB-CI
+https://triplecc.github.io/2018/06/23/2018-06-23-ji-gitlabcide-ci-shi-jian/
 
 #### Docker
 - Docker Compose https://docs.docker.com/compose/
