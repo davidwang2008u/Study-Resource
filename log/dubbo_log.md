@@ -46,4 +46,13 @@ Spring官方的原则是绝不重复造轮子，有好的解决方案只需要�
 * spring-boot-starter-cache，针对缓存支持
 等等
 
+### Spring的注解
+* https://blog.csdn.net/u010648555/article/details/76299467
+* 
+
+### Spring Boot的注解
+*
+
+
+
 
