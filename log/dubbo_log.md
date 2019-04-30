@@ -26,11 +26,23 @@ https://www.cnblogs.com/chanshuyi/p/5144288.html
 https://github.com/apache/incubator-dubbo-spring-boot-project
 
 
-Spring和SpringBoot的使用
-1. Spring的配置文件是applicationcontext.xml
-而SpringBoot的配置文件是application.properties
-
-2. 
-
+### Spring和SpringBoot的使用
+* Spring的配置文件是applicationcontext.xml
+*而SpringBoot的配置文件是application.properties*
+* Spring
+*被管理对象与业务逻辑之间，Spring通过IOC（控制反转）架起使用的桥梁，IOC也可以看做Spring最核心最重要的思想
+通过@Autowired; 
+Spring官方的原则是绝不重复造轮子，有好的解决方案只需要通过Spring进行集成即可。纵览Spring的结构，你会发现Spring Framework 本身并未提供太多具体的功能，它主要专注于让你的项目代码组织更加优雅，使其具有极好的灵活性和扩展性，同时又能通过Spring集成业界优秀的解决方案*
+### Spring MVC
+*是Spring的一部分，Spring 出来以后，大家觉得很好用，于是按照这种模式设计了一个 MVC框架（一些用Spring 解耦的组件），主要用于开发WEB应用和网络接口，它是Spring的一个模块，通过Dispatcher Servlet, ModelAndView 和 View Resolver，让应用开发变得很容易*
+### Spring Boot
+*初期的Spring通过代码加配置的形式为项目提供了良好的灵活性和扩展性，但随着Spring越来越庞大，其配置文件也越来越繁琐，太多复杂的xml文件也一直是Spring被人诟病的地方*
+在Spring Boot中，你会发现你引入的所有包都是starter形式，如：
+* spring-boot-starter-web-services，针对SOAP Web Services
+* spring-boot-starter-web，针对Web应用与网络接口
+* spring-boot-starter-jdbc，针对JDBC
+* spring-boot-starter-data-jpa，基于hibernate的持久层框架
+* spring-boot-starter-cache，针对缓存支持
+等等
 
 
