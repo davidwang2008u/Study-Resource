@@ -27,6 +27,7 @@ https://github.com/apache/incubator-dubbo-spring-boot-project
 
 
 ### Spring和SpringBoot的使用
+* Spring 就像一个大家族，有众多衍生产品例如 Boot，Security，JPA等等。但他们的基础都是Spring 的 IOC 和 AOP，IOC提供了依赖注入的容器，而AOP解决了面向切面的编程，然后在此两者的基础上实现了其他衍生产品的高级功能；Spring MVC是基于 Servlet 的一个 MVC 框架，主要解决 WEB 开发的问题，因为 Spring 的配置非常复杂，各种xml，properties处理起来比较繁琐。于是为了简化开发者的使用，Spring社区创造性地推出了Spring Boot，它遵循约定优于配置，极大降低了Spring使用门槛，但又不失Spring原本灵活强大的功能
 * Spring的配置文件是applicationcontext.xml
 *而SpringBoot的配置文件是application.properties*
 * Spring
