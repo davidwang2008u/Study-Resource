@@ -26,7 +26,11 @@ https://www.cnblogs.com/chanshuyi/p/5144288.html
 https://github.com/apache/incubator-dubbo-spring-boot-project
 
 
+Spring和SpringBoot的使用
+1. Spring的配置文件是applicationcontext.xml
+而SpringBoot的配置文件是application.properties
 
+2. 
 
 
 
