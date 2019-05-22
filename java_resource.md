@@ -15,3 +15,10 @@
 
 #### 工具平台
 * [xxlJOB](https://github.com/xuxueli/xxl-job) A lightweight distributed task scheduling framework.（分布式任务调度平台XXL-JOB）
+
+#### 工具类
+* YAML解析 https://github.com/EsotericSoftware/yamlbeans/blob/master/CN_README.md
+#### JAVA动态执行引擎
+* BEANShell https://github.com/beanshell/beanshell
+* Easy-Rules https://github.com/j-easy/easy-rules
+* Drools https://github.com/kiegroup/drools
