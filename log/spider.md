@@ -4,7 +4,7 @@ https://github.com/binux/pyspider
 * 好像蛮牛B的,中文的
 https://github.com/zhegexiaohuozi/SeimiCrawler
 * YayCrawler Spring+正则+有界面
-https://github.com/liushuishang/YayCrawler
+https://github.com/davidwang2008u/YayCrawler
 * https://github.com/liinnux/awesome-crawler-cn
 互联网爬虫，蜘蛛，数据采集器，网页解析器的汇总，因新技术不断发展，新框架层出不穷，此文会不断更新...
 * https://github.com/Jack-Cherish/python-spider
