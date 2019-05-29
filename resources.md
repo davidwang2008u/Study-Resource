@@ -14,6 +14,9 @@
 * https://github.com/jflyfox/jfinal_cms
 
 #### HTML Front-end Template
+* https://github.com/froala/design-blocks A set of 170+ Bootstrap based design blocks ready to be used to create clean modern websites.感觉资源很多的
+- https://github.com/topics/html-template <br>github的topic</b>
+- https://github.com/topics/admin-dashboard <br>好资源,前几名都是很强大的工具</b>
 - https://github.com/ColorlibHQ/gentelella  Free Bootstrap 3 Admin Template
 - https://github.com/h5bp/html5-boilerplate HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
 - https://github.com/davidwang2008u/html-templates  一些 html、bootstrap框架的后台模板集合
@@ -21,8 +24,6 @@
 - https://github.com/jquery/jquery
 - https://github.com/keen/dashboards Dashboard的模板,基于bootstrap,star的量比较大
 - https://github.com/ColorlibHQ/gentelella Free Bootstrap 3 Admin Template
-- https://github.com/topics/html-template <b>github的topic</b>
-- https://github.com/topics/admin-dashboard <b>好资源,前几名都是很强大的工具</b>
 - https://github.com/PanJiaChen/vue-element-admin 蛮牛B的,应该是国产
 - https://github.com/tabler/tabler
 - https://github.com/akveo/ngx-admin 界面很美观
