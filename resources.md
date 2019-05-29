@@ -1,6 +1,8 @@
 # java source
 - jsoup https://github.com/jhy/jsoup   java html url 解析器
 - https://github.com/qos-ch/slf4j  日志
+- https://gitee.com/davidwang20180226/projects 国产的开源代码库
+
 
 ### Java WebSite Framework
 #### DEMO
