@@ -10,6 +10,8 @@
 - https://github.com/phachon/html-templates 一些 html、bootstrap框架的后台模板集合
 - https://github.com/sanluan/PublicCMS 
 
+#### CMS Demo
+* https://github.com/jflyfox/jfinal_cms
 
 #### HTML Front-end Template
 - https://github.com/ColorlibHQ/gentelella  Free Bootstrap 3 Admin Template
