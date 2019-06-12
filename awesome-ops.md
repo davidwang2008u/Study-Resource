@@ -1,9 +1,4 @@
 # awesome-AIOps
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![知识共享协议（CC协议）](https://img.shields.io/badge/License-Creative%20Commons-DC3D24.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
-[![GitHub stars](https://img.shields.io/github/stars/linjinjin123/awesome-AIOps.svg?style=flat&label=Star)](https://github.com/linjinjin123/awesome-AIOps/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/linjinjin123/awesome-AIOps.svg?style=flat&label=Fork)](https://github.com/linjinjin123/awesome-AIOps/fork)
-[![GitHub watchers](https://img.shields.io/github/watchers/linjinjin123/awesome-AIOps.svg?style=flat&label=Watch)](https://github.com/linjinjin123/awesome-AIOps/watchers)
 
 - [Awesome AIOps](#awesome-AIOps)
     - [White Paper](#white-paper)
@@ -83,16 +78,13 @@
 * 华为产品可服务能力（华为的）
 * 知乎专栏：[智能运维(AIOps)](https://zhuanlan.zhihu.com/awesome-AIOps)
 
-## Copy From
-https://github.com/linjinjin123/awesome-AIOps/blob/master/README.md
-
 ## 运维相关管理系统
 以下是收集的一些github上开源的运维管理系统，都各有特色
 
 ### 运维管理系统
  - [pythonzm/Ops](https://github.com/pythonzm/Ops) - 基于centos6+python3.6+django2+ansible2.4+celery4.2 运维管理系统，目前实现功能：用户和用户组管理、资产管理、集成ansible2.4、简易堡垒机(主机分配支持rdp以及vnc、用户分配、文件上传下载、配置禁用命令清单、操作录像回放功能)、CI/CD（支持git仓库和svn仓库）、数据库管理（一部分）、celery任务编排、知识库及文件共享
  - [leoiceo/OpenSA](https://github.com/leoiceo/OpenSA) - 资产管理、资产采集、灰度发布、反向代理、批量任务、任务编排、计划任务、日志审计、权限管理、角色管理、部门管理、运维自动化 http://opensa.imdst.com
- - [liquanzhou/cedardeploy](https://github.com/liquanzhou/cedardeploy) - cedardeploy:发布系统基于python,flask,mysql,git,ssh-key,supervisor.支持多类型,上线,回滚,监控,报警
+ - [liquanzhou/cedardeploy](https://github.com/liquanzhou/cedardeploy) - cedardeploy:发布系统基于python,flask,mysql,git,ssh-key,supervisor.支持多类型,上线,回滚,监控,报警 
  - [cksgf/ServerManagement](https://github.com/cksgf/ServerManagement) - 服务器管理工具，目前有文件管理器、进程监控、计划任务、webSSH、多主机管理等，准备在自己服务器上用，后续会加入更多运维相关，本项目后端python+flask，前端使用layui+jquery，代码在线编辑使用codemirror，webSSH后端使用paramiko前端xterm
  - [open-cmdb/cmdb](https://github.com/open-cmdb/cmdb) - CMDB 配置管理系统 资产管理系统 http://cmdb.mmtweb.xyz
  - [smallmi/omms](https://github.com/smallmi/omms) - OMMS运维监控系统，功能介绍: 资产管理 应用管理 任务执行 权限管理等 http://www.smallmi.com
@@ -276,6 +268,7 @@ Misc
 -	[The Phoenix Project](http://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262509/ref=sr_1_1?ie=UTF8&qid=1451900824&sr=8-1&keywords=project+phoenix) - A Novel about IT, DevOps, and Helping Your Business Win
 -   [DevOps'ish](https://devopsish.com/) - A newsletter focused on People, Process, and Tools in the DevOps, Cloud Native, and Open Source spaces.
 
+
 # Awesome DevOps
 This is the awesome list with all open source and free applications that you can use in your management.
 
@@ -290,7 +283,7 @@ Table of Contents
 
 ## Cloud Computing
 
-#### IaaS
+#### IaaS (IaaS：基础设施服务，Infrastructure-as-a-service)
 
 [Cracow Cloud One](http://cc1.ifj.edu.pl/en/) ([`Opensource`](https://github.com/cc1-cloud/cc1)) The CC1 system provides a complete solution for Private Cloud Computing.
 
@@ -314,7 +307,7 @@ Table of Contents
 
 [ZStack](http://en.zstack.io/) ([`Opensource`](https://github.com/zstackorg/zstack)) ZStack is open source IaaS software aiming to automate datacenters, managing resources of compute, storage, and networking all by APIs.
 
-#### PaaS
+#### PaaS (PaaS：平台服务，Platform-as-a-service)
 
 [Apache Stratos](https://stratos.apache.org/) ([`Opensource`](https://git-wip-us.apache.org/repos/asf?p=stratos.git)) Highly-extensible PaaS framework that helps run Apache Tomcat, PHP, and MySQL applications and can be extended to support many more environments on all major cloud infrastructures.
 
