@@ -13,13 +13,13 @@
   * Elasticsearch https://github.com/elastic/elasticsearch
   * Logstash https://github.com/elastic/logstash
   * Kibana https://github.com/elastic/kibana
-```
-什么是ELK
-Elasticsearch是个开源分布式搜索引擎，它的特点有：分布式，零配置，自动发现，索引自动分片，索引副本机制，restful风格接口，多数据源，自动搜索负载等。
-Logstash是一个完全开源的工具，他可以对你的日志进行收集、过滤，并将其存储供以后使用（如，搜索）。
-Kibana 也是一个开源和免费的工具，它Kibana可以为 Logstash 和 ElasticSearch 提供的日志分析友好的 Web 界面，可以帮助您汇总、分析和搜索重要数据日志
-Grafana 最早其实应该是 Kibana 3 的分支，不相信的可以去翻 Github 的提交记录，所以但凡用过 Kibana 3的人就知道， Grafana 的界面风格其实和 Kibana3 的风格是一致的。两者已经分道扬镳,各有千秋.
-```
+ ```
+ 什么是ELK
+ Elasticsearch是个开源分布式搜索引擎，它的特点有：分布式，零配置，自动发现，索引自动分片，索引副本机制，restful风格接口，多数据源，自动搜索负载等。
+ Logstash是一个完全开源的工具，他可以对你的日志进行收集、过滤，并将其存储供以后使用（如，搜索）。
+ Kibana 也是一个开源和免费的工具，它Kibana可以为 Logstash 和 ElasticSearch 提供的日志分析友好的 Web 界面，可以帮助您汇总、分析和搜索重要数据日志
+ Grafana 最早其实应该是 Kibana 3 的分支，不相信的可以去翻 Github 的提交记录，所以但凡用过 Kibana 3的人就知道， Grafana 的界面风格其实和 Kibana3 的风格是一致的。两者已经分道扬镳,各有千秋.
+ ```
 * 静态数据展示
   * Superset https://github.com/apache/incubator-superset
    ```
@@ -56,10 +56,9 @@ Grafana 最早其实应该是 Kibana 3 的分支，不相信的可以去翻 Gith
    不过实际上即使是Superset大部分运营和产品的人也只会看现成的Dashboard，很少有人会自己构建图表。
    从软件架构与代码质量上来说，Redash要明显优于Superset。
    ```
-
-* https://github.com/matomo-org/matomo
-> Google Analytics的分析
-* 同上 https://github.com/usefathom/fathom
+* Google Analytics的分析
+ * https://github.com/matomo-org/matomo
+ * 同上 https://github.com/usefathom/fathom
 
 
 
