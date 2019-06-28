@@ -8,12 +8,28 @@
 > An easy to use, self-service open BI reporting and BI dashboard platform. 
 * Superset https://github.com/apache/incubator-superset
 ```
+Superset的Airbnb开源的数据可视化工具，目前属于Apache孵化器项目，主要用于数据分析师进行数据可视化工作
 划重点,可能是目前颜值最高的开源BI工具-Superset
 什么时候用Grafana，什么时候用Superset
 时间序列，选Grafana
 数据量很大，用Grafana
 静态的日报、报表，Superset表现力很好
 ```
+* Grafana
+
+* ELK
+  * Elasticsearch https://github.com/elastic/elasticsearch
+  * Logstash https://github.com/elastic/logstash
+  * Kibana https://github.com/elastic/kibana
+```
+什么是ELK
+Elasticsearch是个开源分布式搜索引擎，它的特点有：分布式，零配置，自动发现，索引自动分片，索引副本机制，restful风格接口，多数据源，自动搜索负载等。
+Logstash是一个完全开源的工具，他可以对你的日志进行收集、过滤，并将其存储供以后使用（如，搜索）。
+Kibana 也是一个开源和免费的工具，它Kibana可以为 Logstash 和 ElasticSearch 提供的日志分析友好的 Web 界面，可以帮助您汇总、分析和搜索重要数据日志
+Grafana 最早其实应该是 Kibana 3 的分支，不相信的可以去翻 Github 的提交记录，所以但凡用过 Kibana 3的人就知道， Grafana 的界面风格其实和 Kibana3 的风格是一致的。两者已经分道扬镳,各有千秋.
+```
+
+* Redash
 
 * metabase https://github.com/metabase/metabase
 > The simplest, fastest way to get business intelligence and analytics to everyone in your company
@@ -27,25 +43,14 @@
 * echart https://github.com/apache/incubator-echarts
 * Ant-Design
 * vue
+
 #### TOPO拓扑
 * https://github.com/go-on-the-way/d3.js-network-topology
 * jtopo https://github.com/winyuan/jtopo_topology
 * jtopo网站 http://www.jtopo.com/index.html
 
 
-
-
-## Grafana
-
-## ELK
-
-## Redash
-
-## Superset
-* Superset的Airbnb开源的数据可视化工具，目前属于Apache孵化器项目，主要用于数据分析师进行数据可视化工作
-* https://github.com/apache/incubator-superset
-
-### 组件
+#### 组件
 * Timesheet https://github.com/sbstjn/timesheet.js
 > Simple JavaScript library to create HTML time sheets. Wrapped in an example project using Middleman …
 * 算法可视化 https://github.com/algorithm-visualizer/algorithm-visualizer
