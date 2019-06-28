@@ -7,7 +7,14 @@
 * CBoard https://github.com/TuiQiao/CBoard
 > An easy to use, self-service open BI reporting and BI dashboard platform. 
 * Superset https://github.com/apache/incubator-superset
-> 划重点,可能是目前颜值最高的开源BI工具-Superset
+```
+划重点,可能是目前颜值最高的开源BI工具-Superset
+什么时候用Grafana，什么时候用Superset
+时间序列，选Grafana
+数据量很大，用Grafana
+静态的日报、报表，Superset表现力很好
+```
+
 * metabase https://github.com/metabase/metabase
 > The simplest, fastest way to get business intelligence and analytics to everyone in your company
 * https://github.com/matomo-org/matomo
