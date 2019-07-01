@@ -23,7 +23,7 @@
    Grafana 最早其实应该是 Kibana 3 的分支，不相信的可以去翻 Github 的提交记录，所以但凡用过 Kibana 3的人就知道，
    Grafana 的界面风格其实和 Kibana3 的风格是一致的。两者已经分道扬镳,各有千秋.
    ```
-* 静态数据展示
+* 静态数据展示(BI数据展示)
   * Superset https://github.com/apache/incubator-superset
    ```
    Superset的Airbnb开源的数据可视化工具，目前属于Apache孵化器项目，主要用于数据分析师进行数据可视化工作
