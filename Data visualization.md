@@ -2,6 +2,7 @@
 * Github标签有data-visualization,dashboards
 * Topic 数据可视化 https://github.com/topics/data-visualization
 * Topic 可视化 https://github.com/topics/visualization
+* Topic BI https://github.com/topics/business-intelligence
 * just dashboard https://github.com/kantord/just-dashboard
 > BI Business Intelligence (BI) in Python, OLAP
 * CBoard https://github.com/TuiQiao/CBoard
