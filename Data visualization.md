@@ -59,6 +59,9 @@
    不过实际上即使是Superset大部分运营和产品的人也只会看现成的Dashboard，很少有人会自己构建图表。
    从软件架构与代码质量上来说，Redash要明显优于Superset。
    ```
+  * 大数据 https://github.com/metatron-app/metatron-discovery
+  > Powerful & Easy way for big data discovery 
+
 * Google Analytics的分析
   * https://github.com/matomo-org/matomo
   * 同上 https://github.com/usefathom/fathom
@@ -74,8 +77,6 @@
   * Timesheet https://github.com/sbstjn/timesheet.js
   > Simple JavaScript library to create HTML time sheets. Wrapped in an example project using Middleman …
   * 算法可视化 https://github.com/algorithm-visualizer/algorithm-visualizer
-  * 大数据 https://github.com/metatron-app/metatron-discovery
-  > Powerful & Easy way for big data discovery 
   * Dashboards using YAML or JSON files https://github.com/kantord/just-dashboard
 
 
