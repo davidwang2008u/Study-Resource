@@ -38,7 +38,7 @@
   ```
   浅析数据查询与可视化工具--Redash
   https://zhuanlan.zhihu.com/p/31292944
-  ![架构](https://pic3.zhimg.com/80/v2-50c3f04b9772f0f8f6d3c740a3794b56_hd.jpg)
+  ![https://pic3.zhimg.com/80/v2-50c3f04b9772f0f8f6d3c740a3794b56_hd.jpg]
   ```
   * metabase https://github.com/metabase/metabase
    ```
