@@ -6,7 +6,8 @@
 * app-inspector https://github.com/macacajs/app-inspector
 * 已经不再维护,思路可以参考 https://github.com/jonathanpenn/ui-screen-shooter
 * App UI automation framework based on Appium 1.8.1 https://github.com/lgxqf/AppUIAutomation
-* 
+* ranorex 商用软件 https://www.ranorex.com/
+
 
 ## APM
 * Pinpoint
@@ -19,7 +20,9 @@
 ### 发布系统
 * [携程发布系统](https://github.com/ctripcorp/tars)
 * [PHP发布系统](https://github.com/lisijie/gopub)
-* 
+* [携程Tars](https://github.com/davidwang2008u/tars)
+* [携程VI](https://github.com/davidwang2008u/vi)
+
 
 ### Resource
 - https://github.com/sciactive/pnotify 
