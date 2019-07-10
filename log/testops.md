@@ -1,5 +1,11 @@
 ## Test Tool Docker
 * Selenium https://github.com/SeleniumHQ/docker-selenium
+
+
+## APP UI Testor
+* app-inspector https://github.com/macacajs/app-inspector
+* 已经不再维护,思路可以参考 https://github.com/jonathanpenn/ui-screen-shooter
+* App UI automation framework based on Appium 1.8.1 https://github.com/lgxqf/AppUIAutomation
 * 
 
 ## APM
@@ -9,7 +15,12 @@
 * CAT
 
 
-# Ops
+## Ops
+### 发布系统
+* [携程发布系统](https://github.com/ctripcorp/tars)
+* [PHP发布系统](https://github.com/lisijie/gopub)
+* 
+
 ### Resource
 - https://github.com/sciactive/pnotify 
 Beautiful JavaScript notifications with Web Notifications support. 
