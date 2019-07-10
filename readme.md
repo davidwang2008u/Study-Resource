@@ -159,11 +159,11 @@
 - [DonkeyCAR](https://github.com/autorope/donkeycar)
 
 
-# 2. TensorFlow资料
+##### 2. TensorFlow资料
 - [Sample1](https://github.com/davidwang2008u/TensorFlow-Examples)
 - [TensorFlow 1](https://github.com/davidwang2008u/tensorflow-1)
 - [21项目玩转深度学习代码](https://github.com/davidwang2008u/Deep-Learning-21-Examples)
-- [Top框架] (https://github.com/davidwang2008u/Top-Deep-Learning)
+- [Top框架](https://github.com/davidwang2008u/Top-Deep-Learning)
 - [tensorFlow模板](https://github.com/davidwang2008u/tensorflow_template_application)
 - [Top](https://github.com/davidwang2008u/TopDeepLearning)
 - [源码分析tensorflow](https://github.com/davidwang2008u/tensorflow)
@@ -181,74 +181,53 @@
 - [Tensorflow Layer](https://github.com/tensorlayer/tensorlayer)
 
 
-### 2.2 Keras
-- https://github.com/fchollet/deep-learning-models
-- https://github.com/keras-team/keras
+###### 2.2 Keras
+- [Deep Learning Models](https://github.com/fchollet/deep-learning-models)
+- [Keras](https://github.com/keras-team/keras)
+##### 3. 国外教学课件
+- [斯坦福的良心大作/CS230](https://github.com/davidwang2008u/stanford-cs-230-deep-learning)
+- [深度学习教程整理](https://github.com/zeusees/HyperDL-Tutorial)
+- [深度学习](https://github.com/lawlite19/DeepLearning_Python)
+##### 4. Resource
+- [Deep Learning for Music (DL4M)](https://github.com/davidwang2008u/awesome-deep-learning-music)
+- [AI课程,书籍,视频等](https://github.com/davidwang2008u/awesome-artificial-intelligence)
+- [Pandas](https://github.com/pandas-dev/pandas)
+- [Automated machine learning for analytics & production](https://github.com/ClimbsRocks/auto_ml)
+- [TPOT](https://github.com/EpistasisLab/tpot)
+- [feature tools](https://github.com/Featuretools/featuretools)
+- [A list of popular github projects related to deep learning](https://github.com/aymericdamien/TopDeepLearning)
+- [Awesome](https://github.com/owainlewis/awesome-artificial-intelligence)
+- [Awesome MLMath](https://github.com/EderSantana/awesomeMLmath)
+
+##### 5. CNTK
+- [CNTK](https://github.com/Microsoft/CNTK)
+
+##### 6. Machine Learning
+- [MachineLearning_Python](https://github.com/lawlite19/MachineLearning_Python)
+
+##### 7. 无线
+- [ROBOTIUM](https://github.com/RobotiumTech/robotium)
+- [APPIUM](https://github.com/appium/appium)
+- [GT]https://github.com/Tencent/GT)
+- [INFER跑不起来](https://github.com/facebook/infer)
+##### 8. Security
+- [Cobra](https://github.com/WhaleShark-Team/cobra)
+- [ScannerBox](https://github.com/We5ter/Scanners-Box)
+##### 9. MySQL
+- [Twitter Mysql](https://github.com/twitter-forks/mysql)
+- [MySQL Sniffer](https://github.com/Qihoo360/mysql-sniffer)
+- [MySQL Perf](https://github.com/yahoo/mysql_perf_analyzer)
+- [Linux performance](https://github.com/brendangregg/perf-tools)
+- [Stock Resource](https://github.com/davidwang2008u/Data-Analysis)
 
 
-
-# 3. 国外教学课件
-- 斯坦福的良心大作/CS230 
-https://github.com/davidwang2008u/stanford-cs-230-deep-learning
-- 深度学习教程整理 
-https://github.com/zeusees/HyperDL-Tutorial
-- 深度学习 https://github.com/lawlite19/DeepLearning_Python
-
-
-# 4. Resource
-- Deep Learning for Music (DL4M) https://github.com/davidwang2008u/awesome-deep-learning-music
-- AI课程,书籍,视频等 https://github.com/davidwang2008u/awesome-artificial-intelligence
-- Pandas https://github.com/pandas-dev/pandas
-- Automated machine learning for analytics & production 
-https://github.com/ClimbsRocks/auto_ml
-- https://github.com/EpistasisLab/tpot
-- feature tools https://github.com/Featuretools/featuretools
-- A list of popular github projects related to deep learning 
-https://github.com/aymericdamien/TopDeepLearning
-- https://github.com/owainlewis/awesome-artificial-intelligence
-- https://github.com/EderSantana/awesomeMLmath
-
-# 5. CNTK
-- https://github.com/Microsoft/CNTK
-
-# 6. Machine Learning
-- https://github.com/lawlite19/MachineLearning_Python
-
-# 7. 无线
-- https://github.com/RobotiumTech/robotium
-- https://github.com/appium/appium
-- https://github.com/Tencent/GT
-- https://github.com/facebook/infer
-
-
-# 8. Security
-- https://github.com/WhaleShark-Team/cobra
-- https://github.com/We5ter/Scanners-Box
-
-
-# 9. MySQL
-- https://github.com/twitter-forks/mysql
-- https://github.com/Qihoo360/mysql-sniffer
-- https://github.com/yahoo/mysql_perf_analyzer
-- Linux performance https://github.com/brendangregg/perf-tools
-
-
-# 10. Stock Resource
-- Fork: https://github.com/davidwang2008u/Data-Analysis
-- Resource: https://github.com/WillKoehrsen/Data-Analysis
-
-
-# 11. QCon资料
-### QCon Shanghai 2018
-- fork https://github.com/davidwang2008u/QConShanghai2018
-
-#### QCon历年 https://github.com/QConChina
-
-### 11.1 知识仓库
-- https://github.com/wxyyxc1992/Developer-Zero-To-Mastery
-- 吴恩达笔记 https://github.com/fengdu78/deeplearning_ai_books
-
-#### Pipeline AI Platform
-- https://github.com/PipelineAI/pipeline
+##### 11. QCon资料
+###### QCon Shanghai 2018
+- [fork Own](https://github.com/davidwang2008u/QConShanghai2018)
+- [QCon历年](https://github.com/QConChina)
+####### 11.1 知识仓库
+- [Developer to Master](https://github.com/wxyyxc1992/Developer-Zero-To-Mastery)
+- [吴恩达笔记](https://github.com/fengdu78/deeplearning_ai_books)
+- [Pipeline AI Platform](https://github.com/PipelineAI/pipeline)
 
 
