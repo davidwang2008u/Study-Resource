@@ -98,7 +98,7 @@
 - [语言AI模型！编故事以假乱真，问答翻译写摘要都行，横扫各大语言建模任务](https://github.com/openai/gpt-2)
 
 #### 机器学习项目发布LifeCycle
-- [MLFlow(]https://github.com/davidwang2008u/mlflow)
+- [MLFlow](https://github.com/davidwang2008u/mlflow)
 - [MlFlow-Folk](https://github.com/mlflow/mlflow)
 
 
@@ -120,7 +120,7 @@
 - [YOLO](https://github.com/davidwang2008u/tensorflow-yolo)
 - [YOLO3](https://github.com/qqwweee/keras-yolo3)
 - [3D检测](https://github.com/facebookresearch/VideoPose3D)
-- [ActionRecognition](https://github.com/kracwarlock/action-recognition-visual-attention
+- [ActionRecognition](https://github.com/kracwarlock/action-recognition-visual-attention)
 - [Anomaly Detection Learning Resources](https://github.com/yzhao062/anomaly-detection-resources)
 - [Tensorflow Image Detection](https://github.com/ArunMichaelDsouza/tensorflow-image-detection)
 - [Bottom-up Object Detection by Grouping Extreme and Center Points-pytorch](https://github.com/xingyizhou/ExtremeNet)
@@ -152,7 +152,7 @@
 
 ### OCR
 - [OCR](https://github.com/tesseract-ocr/tesseract)
-- [TensorFlow OCR]https://github.com/pannous/tensorflow-ocr)
+- [TensorFlow OCR](https://github.com/pannous/tensorflow-ocr)
 - [OpenCV](https://github.com/opencv/opencv)
 
 ### 综合
@@ -208,7 +208,7 @@
 ##### 7. 无线
 - [ROBOTIUM](https://github.com/RobotiumTech/robotium)
 - [APPIUM](https://github.com/appium/appium)
-- [GT]https://github.com/Tencent/GT)
+- [GT](https://github.com/Tencent/GT)
 - [INFER跑不起来](https://github.com/facebook/infer)
 ##### 8. Security
 - [Cobra](https://github.com/WhaleShark-Team/cobra)
@@ -221,11 +221,9 @@
 - [Stock Resource](https://github.com/davidwang2008u/Data-Analysis)
 
 
-##### 11. QCon资料
 ###### QCon Shanghai 2018
 - [fork Own](https://github.com/davidwang2008u/QConShanghai2018)
 - [QCon历年](https://github.com/QConChina)
-####### 11.1 知识仓库
 - [Developer to Master](https://github.com/wxyyxc1992/Developer-Zero-To-Mastery)
 - [吴恩达笔记](https://github.com/fengdu78/deeplearning_ai_books)
 - [Pipeline AI Platform](https://github.com/PipelineAI/pipeline)
