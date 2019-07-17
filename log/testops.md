@@ -8,6 +8,11 @@
 * [App UI automation framework based on Appium 1.8.1](https://github.com/lgxqf/AppUIAutomation)
 * [ranorex 商用软件](https://www.ranorex.com/)
 
+### AI Testing
+#### [Sikuli Homepage](http://sikulix.com/)
+* [SikuliX1](https://github.com/RaiMan/SikuliX1)
+* [SikuliX2](https://github.com/RaiMan/SikuliX2)
+* [sikuli](https://github.com/sikuli/sikuli)
 
 ## APM
 * Pinpoint
