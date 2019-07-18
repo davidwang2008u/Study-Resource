@@ -19,7 +19,7 @@
   * [GraphWalker](https://github.com/KristianKarl/GraphWalker)
   * [graphwalker-project](https://github.com/GraphWalker/graphwalker-project)
 #### APP UI Testor
-* [app-inspector](https://github.com/macacajs/app-inspector)
+* [app-inspector App-inspector is a mobile UI viewer in browser.](https://github.com/macacajs/app-inspector)
 * 已经不再维护,思路可以参考 [ui-screen](https://github.com/jonathanpenn/ui-screen-shooter)
 * [App UI automation framework based on Appium 1.8.1](https://github.com/lgxqf/AppUIAutomation)
 * [ranorex 商用软件](https://www.ranorex.com/)
