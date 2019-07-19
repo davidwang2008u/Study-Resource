@@ -10,7 +10,8 @@
 * [OpenCV 学习笔记（模板匹配）](https://blog.csdn.net/liyuanbhu/article/details/49837661)
 * [【OpenCV3】模板匹配——cv::matchTemplate()详解](https://blog.csdn.net/guduruyu/article/details/69231259)
 * [opencv MSER](https://www.cnblogs.com/sdlypyzq/p/4387112.html)
-
+* [Python使用OpenCV源码](https://pysource.com/2018/01/20/loading-images-opencv-3-4-with-python-3-tutorial-1/)
+* [OpenCV-Python](https://opencv-python-tutroals.readthedocs.io/en/latest/index.html)
 
 #### Dev
 * [SIFT算法实现](https://blog.csdn.net/qq_35608277/article/details/80644183)
