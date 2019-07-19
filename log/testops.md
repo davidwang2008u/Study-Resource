@@ -75,4 +75,20 @@ The tool for beautiful monitoring and metric analytics & dashboards for Graphite
 - [NetData](https://github.com/netdata/netdata)
 一个功能看上去很是强大的实时监控系统  Real-time performance monitoring, done right!
 
+### Performance
+#### .NET Debugger
+* [SOSEX现在已经不能访问](http://www.stevestechspot.com/default.aspx)
+* [ntdebugging](http://blogs.msdn.com/b/ntdebugging/)
+* [dotnet Home](http://blogs.msdn.com/b/dotnet/)
+* [DUMP分析,收费,但思路极佳的站点和文档](http://www.dumpanalysis.org/)
+* [Debug ToolBox(Important)](https://blogs.msdn.microsoft.com/debuggingtoolbox/)
+* [微软开源代码站点](https://referencesource.microsoft.com/)
+* [Mono](http://www.ikvm.net/)
+
+
+
+
+
+
+
 
