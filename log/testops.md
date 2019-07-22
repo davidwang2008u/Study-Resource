@@ -39,6 +39,7 @@ The tool for beautiful monitoring and metric analytics & dashboards for Graphite
 - [DevOps-X 基于Kubernetes的全开源DevOps工具链](https://github.com/unixhot/devops-x)
 - [Hygieia : CapitalOne DevOps Dashboard](https://github.com/Hygieia)
   * [中文介绍](http://www.kailing.pub/article/index/arcid/183.html)
+  * [Document](http://hygieia.github.io/Hygieia/getting_started.html)
 - [Responsive dashboard templates](https://github.com/keen/dashboards)
 - [Your life's personal dashboard.](https://github.com/Reportr/dashboard)
 - [An elegant dashboard 貌似国产的,"助力管理系统敏捷开发"](https://github.com/d2-projects/d2-admin)
