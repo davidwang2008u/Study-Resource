@@ -44,6 +44,7 @@ The tool for beautiful monitoring and metric analytics & dashboards for Graphite
   * [中文介绍](http://www.kailing.pub/article/index/arcid/183.html)
   * [Document](http://hygieia.github.io/Hygieia/getting_started.html)
   * [安装文档](https://blog.csdn.net/huaqiangli/article/details/79147103)
+  * [有效的官方英文安装文档](https://hygieia.github.io/Hygieia/setup.html)
 - [Responsive dashboard templates](https://github.com/keen/dashboards)
 - [Your life's personal dashboard.](https://github.com/Reportr/dashboard)
 - [An elegant dashboard 貌似国产的,"助力管理系统敏捷开发"](https://github.com/d2-projects/d2-admin)
