@@ -6,6 +6,9 @@
 * [SikuliX1](https://github.com/RaiMan/SikuliX1)
 * [SikuliX2](https://github.com/RaiMan/SikuliX2)
 * [sikuli](https://github.com/sikuli/sikuli)
+* [reportPortal](https://github.com/reportportal/reportportal)
+  * [官方站点](https://reportportal.io/)
+  * [AI-powered Test Automation Dashboard]
 
 ## 工具
 * [async-profiler 性能分析工具](https://github.com/jvm-profiling-tools/async-profiler)
