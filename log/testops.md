@@ -2,10 +2,10 @@
 * [Selenium](https://github.com/SeleniumHQ/docker-selenium)
 
 ### AI Testing
-#### [Sikuli Homepage](http://sikulix.com/)
-* [SikuliX1](https://github.com/RaiMan/SikuliX1)
-* [SikuliX2](https://github.com/RaiMan/SikuliX2)
-* [sikuli](https://github.com/sikuli/sikuli)
+* [Sikuli Homepage](http://sikulix.com/)
+  * [SikuliX1](https://github.com/RaiMan/SikuliX1)
+  * [SikuliX2](https://github.com/RaiMan/SikuliX2)
+  * [sikuli](https://github.com/sikuli/sikuli)
 * [reportPortal](https://github.com/reportportal/reportportal)
   * [官方站点](https://reportportal.io/)
   * [AI-powered Test Automation Dashboard]
@@ -23,6 +23,8 @@
 * [基于MBT的自动化测试工具——GraphWalker介绍和实际使用](https://www.cnblogs.com/loleina/p/10886400.html)
   * [GraphWalker](https://github.com/KristianKarl/GraphWalker)
   * [graphwalker-project](https://github.com/GraphWalker/graphwalker-project)
+  
+  
 #### APP UI Testor
 * [app-inspector App-inspector is a mobile UI viewer in browser.](https://github.com/macacajs/app-inspector)
 * 已经不再维护,思路可以参考 [ui-screen](https://github.com/jonathanpenn/ui-screen-shooter)
@@ -48,6 +50,7 @@ The tool for beautiful monitoring and metric analytics & dashboards for Graphite
   * [Document](http://hygieia.github.io/Hygieia/getting_started.html)
   * [安装文档](https://blog.csdn.net/huaqiangli/article/details/79147103)
   * [有效的官方英文安装文档](https://hygieia.github.io/Hygieia/setup.html)
+  * [官方英文安装文档2](https://hygieia.github.io/Hygieia/builddocker.html)
 - [Responsive dashboard templates](https://github.com/keen/dashboards)
 - [Your life's personal dashboard.](https://github.com/Reportr/dashboard)
 - [An elegant dashboard 貌似国产的,"助力管理系统敏捷开发"](https://github.com/d2-projects/d2-admin)
@@ -103,7 +106,12 @@ The tool for beautiful monitoring and metric analytics & dashboards for Graphite
 * [微软开源代码站点](https://referencesource.microsoft.com/)
 * [Mono](http://www.ikvm.net/)
 
-
+#### 评比
+* [Gartner](https://www.gartner.com/en)
+  * [Magic Quadrant for Software Test Automation](https://www.gartner.com/en/documents/3894271/magic-quadrant-for-software-test-automation)
+  * [2018DevOps技术大盘点](https://blog.51cto.com/jfrogchina/2073090)
+  * [Reviews for Software Test Automation](https://www.gartner.com/reviews/market/software-test-automation)
+* [Gartner魔力象限报告，自动化测试比以往更加重要](https://www.linuxprobe.com/gartner-devops.html)
 
 
 
