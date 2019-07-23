@@ -25,6 +25,8 @@
 * 已经不再维护,思路可以参考 [ui-screen](https://github.com/jonathanpenn/ui-screen-shooter)
 * [App UI automation framework based on Appium 1.8.1](https://github.com/lgxqf/AppUIAutomation)
 * [ranorex 商用软件](https://www.ranorex.com/)
+
+
 #### Resource
 - [Beautiful JavaScript notifications with Web Notifications support.](https://github.com/sciactive/pnotify)
 - https://github.com/Leo-G/DevopsWiki
@@ -34,6 +36,7 @@
 The tool for beautiful monitoring and metric analytics & dashboards for Graphite, InfluxDB & Prometheus & More
 - [快捷运维，代号kjyw](https://github.com/aqzt/kjyw) 项目基于shell、python，运维脚本工具库，收集各类运维常用工具脚本，实现快速安装nginx、mysql、php、redis、nagios、运维经常使用的脚本等等..
 - [Cabot](https://github.com/arachnys/cabot)Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty 
+
 #### DevOPS工具
 - [开发自运维平台 - 运维体系解决方案，适用于多个应用环境的资产组织以及运维脚本的适配运行](https://github.com/YoLoveLife/DevOps)
 - [DevOps-X 基于Kubernetes的全开源DevOps工具链](https://github.com/unixhot/devops-x)
@@ -50,6 +53,9 @@ The tool for beautiful monitoring and metric analytics & dashboards for Graphite
 - [Angular4 project for web terminal](https://github.com/jumpserver/luna)
 - [自动化部署工具 Ruby开发,可以部署任何语言的项目](https://github.com/capistrano/capistrano)
 - [Server automation framework and application 类似于远程管理的工具](https://github.com/puppetlabs/puppet)
+- [Kubernetes Dashboard](https://github.com/kubernetes/dashboard)
+
+
 #### GitOPS 
 - [Flux-The GitOps Kubernetes operator](https://github.com/weaveworks/flux)
 - [document](https://docs.gitlab.com/ee/ci/quick_start/)
