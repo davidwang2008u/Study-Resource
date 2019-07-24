@@ -1,0 +1,232 @@
+# Help: rename the adject docker-compose.override.example.yml file to docker-compose.override.yml
+#       then in the override file uncomment the environment tag for the collectors you want to
+#       run. Then add the environment vars you want to use.
+version: '3'
+services:
+  db:
+    image: mongo:latest
+    environment:
+      - MONGODB_USERNAME=flight
+      - MONGODB_DATABASE=dashboarddb
+      - MONGODB_PASSWORD=flightadmin
+    ports:
+      - "27017:27017"
+    volumes:
+      - "/home/haibingwang/mongodata:/data/db"
+
+  db-setup:
+    build: db
+    depends_on:
+      - db
+
+  api:
+    image: hygieia-api
+    volumes:
+      - ./logs:/hygieia/logs
+      - ./conf:/hygieia/config
+    environment:
+      - jasypt.encryptor.password=hygieiasecret
+      - SPRING_DATA_MONGODB_DATABASE=dashboarddb
+      - SPRING_DATA_MONGODB_HOST=db
+      - SPRING_DATA_MONGODB_PORT=27017
+      - SPRING_DATA_MONGODB_USERNAME=flight
+      - SPRING_DATA_MONGODB_PASSWORD=flightadmin
+      - FEATURE_DYNAMIC_PIPELINE=enabled
+      - AUTH_EXPIRATION_TIME=3600000
+      - AUTH_SECRET=secret
+      - SKIP_PROPERTIES_BUILDER=false
+    depends_on:
+      - db-setup
+    ports:
+      - "8080:8080"
+
+  api-audit:
+    image: hygieia-api-audit
+    depends_on:
+      - db-setup
+    ports:
+      - "9081:8080"
+
+  ui:
+    image: hygieia-ui
+    depends_on:
+      - api
+    ports:
+      - "3001:80"
+
+#  appdynamics-collector:
+#    build: collectors/performance/appdynamics
+#    image: hygieia-appdynamics-collector
+#    depends_on:
+#      - db-setup
+
+# artifactory-artifact-collector:
+#   build: collectors/artifact/artifactory
+#   image: hygieia-artifactory-artifact-collector
+#   depends_on:
+#     - db-setup
+
+# bamboo-build-collector:
+#   build: collectors/build/bamboo
+#   image: hygieia-bamboo-build-collector
+#   depends_on:
+#     - db-setup
+
+# bitbucket-collector:
+#   build: collectors/scm/bitbucket
+#   image: hygieia-bitbucket-scm-collector
+#   depends_on:
+#     - db-setup
+
+# chat-ops-collector:
+#   build: collectors/misc/chat-ops
+#   image: hygieia-chat-ops-collector
+#   depends_on:
+#     - db-setup
+
+# hpsm-cmdb-collector:
+#   build: collectors/cmdb/hpsm
+#   image: hygieia-hpsm-cmdb-collector
+#   depends_on:
+#     - db-setup
+
+#  github-collector:
+#    build: collectors/scm/github
+#    image: hygieia-github-scm-collector
+#    depends_on:
+#      - db-setup
+
+#  github-graphql-collector:
+#    build: collectors/scm/github-graphql
+#    image: hygieia-github-graphql-scm-collector
+#    depends_on:
+#      - db-setup
+
+  gitlab-feature-collector:
+    image: hygieia-gitlab-feature-collector
+    volumes:
+      - ./logs:/hygieia/logs
+      - ./conf:/hygieia/config
+    links:
+      - db:mongo
+      - api
+    environment:
+      - MONGO_PORT=tcp://10.3.2.25:27017
+      - GITLAB_HOST=git.dev.sh.ctripcorp.com
+      - GITLAB_PROTOCOL=http
+      - GITLAB_PORT=6080
+      - GITLAB_CRON=0 */15 * * * *
+      - GITLAB_API_TOKEN=evYZnNtVgJ2VbYxs_p8z
+      - GITLAB_COMMIT_THRESHOLD_DAYS=20
+      - SKIP_PROPERTIES_BUILDER=false
+    depends_on:
+      - db-setup
+
+  gitlab-scm-collector:
+    image: hygieia-gitlab-scm-collector
+    volumes:
+      - ./logs:/hygieia/logs
+      - ./conf:/hygieia/config
+    links:
+      - db:mongo
+      - api
+    environment:
+      - MONGO_PORT=tcp://10.3.2.25:27017
+      - GITLAB_HOST=git.dev.sh.ctripcorp.com
+      - GITLAB_PROTOCOL=http
+      - GITLAB_PORT=6080
+      - GITLAB_CRON=0 */15 * * * *
+      - GITLAB_API_TOKEN=evYZnNtVgJ2VbYxs_p8z
+      - GITLAB_COMMIT_THRESHOLD_DAYS=20
+      - SKIP_PROPERTIES_BUILDER=false
+    depends_on:
+      - db-setup
+
+  jenkins-build-collector:
+    image: hygieia-jenkins-build-collector
+    volumes:
+      - ./logs:/hygieia/logs
+      - ./conf:/hygieia/config
+    links:
+      - db:mongo
+      - api
+    environment:
+      - MONGO_PORT=tcp://10.3.2.25:27017
+      - JENKINS_CRON=0 */15 * * * *
+      - JENKINS_MASTER=http://haibingwang:11d0339e0cd4630103458237dfa287c9a2@flightci.fws.qa.nt.ctripcorp.com:8080/jenkins
+      - SKIP_PROPERTIES_BUILDER=false
+    depends_on:
+      - db-setup
+
+#  jenkins-codequality-collector:
+#    build: collectors/build/jenkins-codequality
+#    image: hygieia-jenkins-codequality-collector
+#    depends_on:
+#      - db-setup
+
+#  jenkins-cucumber-test-collector:
+#    build: collectors/build/jenkins-cucumber
+#    image: hygieia-jenkins-cucumber-test-collector
+#    depends_on:
+#      - db-setup
+
+#  jira-collector:
+#    build: collectors/feature/jira
+#    image: hygieia-jira-feature-collector
+#    depends_on:
+#      - db-setup
+
+#  nexus-iq-collector:
+#    build: collectors/library-policy/nexus-iq-collector
+#    image: hygieia-nexus-iq-collector
+#    depends_on:
+#      - db-setup
+
+  sonar-codequality-collector:
+    image: hygieia-sonar-codequality-collector
+    volumes:
+      - ./logs:/hygieia/logs
+      - ./conf:/hygieia/config
+    links:
+      - db:mongo
+      - api
+    environment:
+      - SONAR_URL=http://10.5.172.101:9000
+      - SONAR_CRON=0 */5 * * * *
+      - SKIP_PROPERTIES_BUILDER=false
+    depends_on:
+      - db-setup
+
+#  subversion-collector:
+#    build: collectors/scm/subversion
+#    image: hygieia-subversion-scm-collector
+#    depends_on:
+#      - db-setup
+
+#  udeploy-collector:
+#    build: collectors/deploy/udeploy
+#    image: hygieia-udeploy-collector
+#    depends_on:
+#      - db-setup
+
+#  versionone-collector:
+#    build: collectors/feature/versionone
+#    image: hygieia-versionone-collector
+#    depends_on:
+#      - db-setup
+
+# xldeploy-collector:
+#   build: collectors/deploy/xldeploy
+#   image: hygieia-xldeploy-collector
+#   depends_on:
+#     - db-setup
+
+#  score-collector:
+#    build: collectors/misc/score
+#    image: hygieia-score-collector
+#    depends_on:
+#      - db-setup
+
+volumes:
+  db-data:
+  certs:
