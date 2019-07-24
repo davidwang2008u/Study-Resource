@@ -51,6 +51,8 @@ The tool for beautiful monitoring and metric analytics & dashboards for Graphite
   * [安装文档](https://blog.csdn.net/huaqiangli/article/details/79147103)
   * [有效的官方英文安装文档](https://hygieia.github.io/Hygieia/setup.html)
   * [官方英文安装文档2](https://hygieia.github.io/Hygieia/builddocker.html)
+  * [定制化的docker-compose](https://github.com/davidwang2008u/Study-Resource/blob/master/log/hygieia-docker-compose.yml)
+  * [使用Hygieia构建端到端的Devops Dashboard](https://www.itread01.com/content/1550395280.html)
 - [Responsive dashboard templates](https://github.com/keen/dashboards)
 - [Your life's personal dashboard.](https://github.com/Reportr/dashboard)
 - [An elegant dashboard 貌似国产的,"助力管理系统敏捷开发"](https://github.com/d2-projects/d2-admin)
