@@ -11,6 +11,8 @@
   * [AI-powered Test Automation Dashboard]
 
 ## 工具
+* [Netflix的发布系统Spinnaker](https://github.com/spinnaker)
+  * [Netflix Automated Canary Service](https://github.com/spinnaker/kayenta)
 * [async-profiler 性能分析工具](https://github.com/jvm-profiling-tools/async-profiler)
   * [async-profiler基本原理](https://www.twblogs.net/a/5cc880cfbd9eee1ac2ed894a)
 * [Pinpoint](https://github.com/naver/pinpoint)
