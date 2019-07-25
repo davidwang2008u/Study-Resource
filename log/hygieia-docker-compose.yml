@@ -6,13 +6,13 @@ services:
   db:
     image: mongo:latest
     environment:
-      - MONGODB_USERNAME=flight
-      - MONGODB_DATABASE=dashboarddb
-      - MONGODB_PASSWORD=flightadmin
+      - MONGODB_USERNAME=xxxx
+      - MONGODB_DATABASE=xxxx
+      - MONGODB_PASSWORD=xxxx
     ports:
       - "27017:27017"
     volumes:
-      - "/home/haibingwang/mongodata:/data/db"
+      - "/xxxxx:/data/db"
 
   db-setup:
     build: db
@@ -25,15 +25,15 @@ services:
       - ./logs:/hygieia/logs
       - ./conf:/hygieia/config
     environment:
-      - jasypt.encryptor.password=hygieiasecret
-      - SPRING_DATA_MONGODB_DATABASE=dashboarddb
-      - SPRING_DATA_MONGODB_HOST=db
+      - jasypt.encryptor.password=xxxxx
+      - SPRING_DATA_MONGODB_DATABASE=xxxx
+      - SPRING_DATA_MONGODB_HOST=xxx
       - SPRING_DATA_MONGODB_PORT=27017
-      - SPRING_DATA_MONGODB_USERNAME=flight
-      - SPRING_DATA_MONGODB_PASSWORD=flightadmin
+      - SPRING_DATA_MONGODB_USERNAME=xxxxxxx
+      - SPRING_DATA_MONGODB_PASSWORD=xxxx
       - FEATURE_DYNAMIC_PIPELINE=enabled
       - AUTH_EXPIRATION_TIME=3600000
-      - AUTH_SECRET=secret
+      - AUTH_SECRET=xxx
       - SKIP_PROPERTIES_BUILDER=false
     depends_on:
       - db-setup
@@ -111,12 +111,12 @@ services:
       - db:mongo
       - api
     environment:
-      - MONGO_PORT=tcp://10.3.2.25:27017
-      - GITLAB_HOST=git.dev.sh.ctripcorp.com
+      - MONGO_PORT=txxxx
+      - GITLAB_HOST=xxxxx
       - GITLAB_PROTOCOL=http
       - GITLAB_PORT=6080
       - GITLAB_CRON=0 */15 * * * *
-      - GITLAB_API_TOKEN=evYZnNtVgJ2VbYxs_p8z
+      - GITLAB_API_TOKEN=xxxxxx
       - GITLAB_COMMIT_THRESHOLD_DAYS=20
       - SKIP_PROPERTIES_BUILDER=false
     depends_on:
@@ -131,12 +131,12 @@ services:
       - db:mongo
       - api
     environment:
-      - MONGO_PORT=tcp://10.3.2.25:27017
-      - GITLAB_HOST=git.dev.sh.ctripcorp.com
+      - MONGO_PORT=tcp://xxxx
+      - GITLAB_HOST=xxxxx
       - GITLAB_PROTOCOL=http
       - GITLAB_PORT=6080
       - GITLAB_CRON=0 */15 * * * *
-      - GITLAB_API_TOKEN=evYZnNtVgJ2VbYxs_p8z
+      - GITLAB_API_TOKEN=xxxxxxx
       - GITLAB_COMMIT_THRESHOLD_DAYS=20
       - SKIP_PROPERTIES_BUILDER=false
     depends_on:
@@ -151,9 +151,9 @@ services:
       - db:mongo
       - api
     environment:
-      - MONGO_PORT=tcp://10.3.2.25:27017
+      - MONGO_PORT=tcp://xxxxx
       - JENKINS_CRON=0 */15 * * * *
-      - JENKINS_MASTER=http://haibingwang:11d0339e0cd4630103458237dfa287c9a2@flightci.fws.qa.nt.ctripcorp.com:8080/jenkins
+      - JENKINS_MASTER=xxxxxxxxx
       - SKIP_PROPERTIES_BUILDER=false
     depends_on:
       - db-setup
@@ -191,7 +191,7 @@ services:
       - db:mongo
       - api
     environment:
-      - SONAR_URL=http://10.5.172.101:9000
+      - SONAR_URL=http:/xxxxxx
       - SONAR_CRON=0 */5 * * * *
       - SKIP_PROPERTIES_BUILDER=false
     depends_on:
