@@ -45,6 +45,7 @@ The tool for beautiful monitoring and metric analytics & dashboards for Graphite
 - [Cabot](https://github.com/arachnys/cabot)Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty 
 
 #### DevOPS工具
+- [The Prometheus monitoring system and time series database](https://github.com/prometheus/prometheus)
 - [开发自运维平台 - 运维体系解决方案，适用于多个应用环境的资产组织以及运维脚本的适配运行](https://github.com/YoLoveLife/DevOps)
 - [DevOps-X 基于Kubernetes的全开源DevOps工具链](https://github.com/unixhot/devops-x)
 - [Hygieia : CapitalOne DevOps Dashboard](https://github.com/Hygieia)
