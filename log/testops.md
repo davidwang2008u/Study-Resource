@@ -1,7 +1,8 @@
-Type | Name | Description | Name | Description | Name | Description | Name | Description
+Type | Name | Name | Name | Name | Name | Name | Name | Name
 ---- | ---  | ---  | ---  | ---  | ---  | --- | ---  | --- 
-UI   | Ant-Design   | ali   | bootstrap   | opensource | b1   | 12 | b2   | 12
-UI   | Ant-Design   | ali   | bootstrap   | opensource | b1   | 12 | b2   | 12
+UI   | Ant-Design  |i   |    | opensource | b1   | 12 | b2   | 12
+     | bootstrap   |    |     |   |     |   |     |  
+CD   | Jenkins   | Spinnaker   |     |   |     |   |     |  
 
 
 ### Test Tool Docker
