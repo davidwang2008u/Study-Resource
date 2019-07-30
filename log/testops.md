@@ -1,9 +1,10 @@
 ### Index
-|Type | Name | Name | Name | Name | Name | Name| 
-|---- | ---  | ---  | ---  | ---  | ---  | --- 
-|UI   | Ant-Design  |i   |    | opensource | b1   | 12 |
+|Type | Name | Name | Name | Name | 
+|---- | ---  | ---  | ---  | ---  | 
+|UI   | Ant-Design  |i   |    | opensource |
 |    | bootstrap   |
-|CD   |[Topic](https://github.com/topics/continuous-delivery)| Jenkins   | [Spinnaker](https://github.com/spinnaker/spinnaker) |  Gitlab-CI   | [Drone](https://github.com/drone/drone)|[GoCD](https://github.com/gocd/gocd)|
+|CD   |[Topic](https://github.com/topics/continuous-delivery)| Jenkins   | [Spinnaker](https://github.com/spinnaker/spinnaker) |  Gitlab-CI   |
+||[Drone](https://github.com/drone/drone)|[GoCD](https://github.com/gocd/gocd)|
 |UI Test   | Selenium   | [Sikuli]((http://sikulix.com/))   |  [GraphWalker](https://github.com/KristianKarl/GraphWalker)|
 |   | [AppUIAutomation](https://github.com/lgxqf/AppUIAutomation)   | |
 |Interface Test   | [SoapUI](https://github.com/SmartBear/soapui)   | [MounteBank](https://github.com/bbyars/mountebank) |[rest-assured](https://github.com/rest-assured/rest-assured)|
