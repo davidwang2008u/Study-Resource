@@ -10,6 +10,7 @@
 |Performance Test | JMeter   | |  [async-profiler](https://github.com/jvm-profiling-tools/async-profiler)|[携程VI](https://github.com/davidwang2008u/vi)|
 |APM|[SkyWalking](https://github.com/apache/skywalking)|[Pinpoint](https://github.com/naver/pinpoint)|[CAT](https://github.com/dianping/cat)|
 |QA    | [reportPortal](https://github.com/reportportal/reportportal) |
+||[Kayenta-Automated Canary Analysis (ACA)](https://github.com/spinnaker/kayenta)|
 |发布|[Spinnaker](https://github.com/spinnaker)|[携程发布](https://github.com/ctripcorp/tars)|[PHP发布](https://github.com/lisijie/gopub)|[携程Tars](https://github.com/davidwang2008u/tars)|
 |Monitor|[Grafana](https://github.com/grafana/grafana)|Kibana|Redash|[Hygieia : CapitalOne DevOps Dashboard](https://github.com/Hygieia)|
 |Cloud |[OpenShift](https://github.com/openshift)|
@@ -33,7 +34,7 @@
 
 ## 工具
 * [Netflix的发布系统Spinnaker](https://github.com/spinnaker)
-  * [Netflix Automated Canary Service](https://github.com/spinnaker/kayenta)
+  * [Kayenta - Netflix Automated Canary Service](https://github.com/spinnaker/kayenta)
   * [中文架构](https://blog.csdn.net/aixiaoyang168/article/details/78717151)
 * [async-profiler 性能分析工具](https://github.com/jvm-profiling-tools/async-profiler)
   * [async-profiler基本原理](https://www.twblogs.net/a/5cc880cfbd9eee1ac2ed894a)
