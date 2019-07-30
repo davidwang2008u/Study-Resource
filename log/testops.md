@@ -1,12 +1,12 @@
 ### Index
-|Type | Name | Name | Name | Name | Name | Name 
+|Type | Name | Name | Name | Name | Name | Name| 
 |---- | ---  | ---  | ---  | ---  | ---  | --- 
-|UI   | Ant-Design  |i   |    | opensource | b1   | 12 
-|    | bootstrap   |    |     |   |     |   
-|CD   | Jenkins   | Spinnaker   |  Gitlab-CI   |   |     |   
-|UI Test   | Selenium   | Spinnaker   |  Gitlab-CI   |   |     |  
-|   | Selenium   | Spinnaker   |  Gitlab-CI   |   |     |   
-|Interface Test   | Selenium   | Spinnaker   |  Gitlab-CI   |   |     | 
+|UI   | Ant-Design  |i   |    | opensource | b1   | 12 |
+|    | bootstrap   |
+|CD   | Jenkins   | Spinnaker   |  Gitlab-CI   |
+|UI Test   | Selenium   | Spinnaker   |  Gitlab-CI   |
+|   | Selenium   | Spinnaker   |  Gitlab-CI   |
+|Interface Test   | Selenium   | Spinnaker   |  Gitlab-CI   |
 
 
 
