@@ -3,7 +3,7 @@
 |---- | ---  | ---  | ---  | ---  | ---  | --- 
 |UI   | Ant-Design  |i   |    | opensource | b1   | 12 |
 |    | bootstrap   |
-|CD   | Jenkins   | Spinnaker   |  Gitlab-CI   |
+|CD   |[Topic](https://github.com/topics/continuous-delivery)| Jenkins   | [Spinnaker](https://github.com/spinnaker/spinnaker) |  Gitlab-CI   | [Drone](https://github.com/drone/drone)|[GoCD](https://github.com/gocd/gocd)|
 |UI Test   | Selenium   | [Sikuli]((http://sikulix.com/))   |  [GraphWalker](https://github.com/KristianKarl/GraphWalker)|
 |   | Selenium   | Spinnaker   |  Gitlab-CI   |
 |Interface Test   | Selenium   | Spinnaker   |  Gitlab-CI   |
@@ -11,7 +11,9 @@
 |APM|[SkyWalking](https://github.com/apache/skywalking)|[Pinpoint](https://github.com/naver/pinpoint)|[CAT](https://github.com/dianping/cat)|
 |QA    | [reportPortal](https://github.com/reportportal/reportportal) |
 |发布|[Spinnaker](https://github.com/spinnaker)|[携程发布](https://github.com/ctripcorp/tars)|[PHP发布](https://github.com/lisijie/gopub)|[携程Tars](https://github.com/davidwang2008u/tars)|
-
+|Monitor|[Grafana](https://github.com/grafana/grafana)|Kibana|Redash|
+|Cloud |[OpenShift](https://github.com/openshift)|
+|||
 
 ### Test Tool Docker
 * [Selenium](https://github.com/SeleniumHQ/docker-selenium)
@@ -28,6 +30,7 @@
 ## 工具
 * [Netflix的发布系统Spinnaker](https://github.com/spinnaker)
   * [Netflix Automated Canary Service](https://github.com/spinnaker/kayenta)
+  * [中文架构](https://blog.csdn.net/aixiaoyang168/article/details/78717151)
 * [async-profiler 性能分析工具](https://github.com/jvm-profiling-tools/async-profiler)
   * [async-profiler基本原理](https://www.twblogs.net/a/5cc880cfbd9eee1ac2ed894a)
 * [Pinpoint](https://github.com/naver/pinpoint)
@@ -60,7 +63,6 @@ The tool for beautiful monitoring and metric analytics & dashboards for Graphite
 - [Cabot](https://github.com/arachnys/cabot)Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty 
 
 #### DevOPS工具
-- [Spinnaker](https://github.com/spinnaker/spinnaker)
 - [The Prometheus monitoring system and time series database](https://github.com/prometheus/prometheus)
 - [开发自运维平台 - 运维体系解决方案，适用于多个应用环境的资产组织以及运维脚本的适配运行](https://github.com/YoLoveLife/DevOps)
 - [DevOps-X 基于Kubernetes的全开源DevOps工具链](https://github.com/unixhot/devops-x)
