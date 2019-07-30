@@ -4,10 +4,13 @@
 |UI   | Ant-Design  |i   |    | opensource | b1   | 12 |
 |    | bootstrap   |
 |CD   | Jenkins   | Spinnaker   |  Gitlab-CI   |
-|UI Test   | Selenium   | Spinnaker   |  Gitlab-CI   |
+|UI Test   | Selenium   | [Sikuli]((http://sikulix.com/))   |  [GraphWalker](https://github.com/KristianKarl/GraphWalker)|
 |   | Selenium   | Spinnaker   |  Gitlab-CI   |
 |Interface Test   | Selenium   | Spinnaker   |  Gitlab-CI   |
-
+|Performance Test | JMeter   | |  [async-profiler](https://github.com/jvm-profiling-tools/async-profiler)|[携程VI](https://github.com/davidwang2008u/vi)|
+|APM|[SkyWalking .NET和Java都支持](https://github.com/apache/skywalking)|[Pinpoint](https://github.com/naver/pinpoint)|[CAT](https://github.com/dianping/cat)|
+|QA    | [reportPortal](https://github.com/reportportal/reportportal) |
+|发布|[Spinnaker](https://github.com/spinnaker)|[携程发布系统](https://github.com/ctripcorp/tars)|[PHP发布系统](https://github.com/lisijie/gopub)|[携程Tars](https://github.com/davidwang2008u/tars)|
 
 
 ### Test Tool Docker
