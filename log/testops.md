@@ -13,9 +13,10 @@
 |APM|[SkyWalking](https://github.com/apache/skywalking)|[Pinpoint](https://github.com/naver/pinpoint)|[CAT](https://github.com/dianping/cat)|
 |QA    | [reportPortal](https://github.com/reportportal/reportportal) |[GraphWalker](https://github.com/GraphWalker/graphwalker-project)|[cucumber](https://github.com/cucumber/cucumber)|[Mocking Topic](https://github.com/topics/mocking)|
 ||[Kayenta-Automated Canary Analysis (ACA)](https://github.com/spinnaker/kayenta)|[Stub Topic](https://github.com/topics/stubbing)|[Testframework Topic](https://github.com/topics/test-framework)|[testing Topic](https://github.com/topics/testing)|
-||[test-automation topic](https://github.com/topics/test-automation)|
+||[test-automation topic](https://github.com/topics/test-automation)|[Vitrage](https://github.com/openstack/vitrage) |
 |发布|[Spinnaker](https://github.com/spinnaker)|[携程发布](https://github.com/ctripcorp/tars)|[PHP发布](https://github.com/lisijie/gopub)|[携程Tars](https://github.com/davidwang2008u/tars)|
 |Monitor|[Grafana](https://github.com/grafana/grafana)|Kibana|Redash|[Hygieia : CapitalOne DevOps Dashboard](https://github.com/Hygieia)|
+||[prometheus](https://github.com/prometheus/prometheus)|[sentry](https://github.com/getsentry/sentry)|[osquery](https://github.com/osquery/osquery)|[netdata](https://github.com/netdata/netdata)|
 |Cloud |[OpenShift](https://github.com/openshift)|
 |Kubenetes|[Dashboard](kubernetes/dashboard)|
 |CDC|[pack-broker](https://github.com/bethesque/pact_broker)|[pact](https://docs.pact.io/)|
@@ -58,7 +59,18 @@
   * [官方站点](https://reportportal.io/)
   * [AI-powered Test Automation Dashboard]
 
-## 工具
+### 工具
+* [Vitrage](https://github.com/openstack/vitrage) RCA引擎
+  * [CN简介](https://www.backendcloud.cn/2017/11/10/vitrage/)
+* [netdata](https://github.com/netdata/netdata) OS监控
+  * [CN简介](https://blog.csdn.net/ywheel1989/article/details/66685472)
+* [osquery](https://github.com/osquery/osquery)
+  * [简介](https://xuxinkun.github.io/2016/06/27/intro-of-osquery/)
+* [sentry](https://github.com/getsentry/sentry)
+  * [使用实践](https://www.jianshu.com/p/66e00077fac3)
+* [prometheus](https://github.com/prometheus/prometheus)
+  * [cn文档](https://songjiayang.gitbooks.io/prometheus/content/introduction/what.html)
+  * [入门](https://www.hi-linux.com/posts/25047.html)
 * [Netflix的发布系统Spinnaker](https://github.com/spinnaker)
   * [Kayenta - Netflix Automated Canary Service](https://github.com/spinnaker/kayenta)
   * [中文架构](https://blog.csdn.net/aixiaoyang168/article/details/78717151)
@@ -126,6 +138,7 @@ The tool for beautiful monitoring and metric analytics & dashboards for Graphite
 - [YAML](https://www.ibm.com/developerworks/cn/xml/x-cn-yamlintro/index.html)
 - [Jenkins file](https://jenkins.io/zh/doc/book/pipeline/jenkinsfile/)
 * [GitLAB-CI](https://triplecc.github.io/2018/06/23/2018-06-23-ji-gitlabcide-ci-shi-jian/)
+
 #### Docker
 - [Docker Compose](https://docs.docker.com/compose/)
 
