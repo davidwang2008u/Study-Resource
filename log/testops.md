@@ -5,8 +5,7 @@
 || bootstrap   |
 |CD   |[Topic](https://github.com/topics/continuous-delivery)| Jenkins   | [Spinnaker](https://github.com/spinnaker/spinnaker) |  Gitlab-CI   |
 ||[Drone](https://github.com/drone/drone)|[GoCD](https://github.com/gocd/gocd)|
-|UI Test   | Selenium   | [Sikuli]((http://sikulix.com/))   |  [GraphWalker](https://github.com/KristianKarl/GraphWalker)|
-[AppUIAutomation](https://github.com/lgxqf/AppUIAutomation)   | 
+|UI Test   | Selenium   | [Sikuli]((http://sikulix.com/))   |  [GraphWalker](https://github.com/KristianKarl/GraphWalker)|[AppUIAutomation](https://github.com/lgxqf/AppUIAutomation)   | 
 ||[AirTest](https://github.com/AirtestProject/Airtest)|[poco](https://github.com/AirtestProject/Poco)|
 |Interface Test   | [SoapUI](https://github.com/SmartBear/soapui)   | [MounteBank](https://github.com/bbyars/mountebank) |[rest-assured](https://github.com/rest-assured/rest-assured)|[Moco](https://github.com/dreamhead/moco)|
 ||[dredd](https://github.com/apiaryio/dredd)| [Ali rap2-delos](https://github.com/thx/rap2-delos)|
