@@ -12,15 +12,16 @@
 ||[hoverfly](https://github.com/SpectoLabs/hoverfly)|[Hoverfy-java](https://github.com/SpectoLabs/hoverfly-java)|
 ||[dredd](https://github.com/apiaryio/dredd)| [Ali rap2-delos](https://github.com/thx/rap2-delos)|
 |Performance Test | [JMeter](https://github.com/apache/jmeter)| [async-profiler](https://github.com/jvm-profiling-tools/async-profiler)|[携程VI](https://github.com/davidwang2008u/vi)|
-|APM|[SkyWalking](https://github.com/apache/skywalking)|[Pinpoint](https://github.com/naver/pinpoint)|[CAT](https://github.com/dianping/cat)|
-|QA    | [reportPortal](https://github.com/reportportal/reportportal) |[GraphWalker](https://github.com/GraphWalker/graphwalker-project)|[cucumber](https://github.com/cucumber/cucumber)|[Mocking Topic](https://github.com/topics/mocking)|
+|APM|[SkyWalking](https://github.com/apache/skywalking)|[Pinpoint](https://github.com/naver/pinpoint)|[CAT](https://github.com/dianping/cat)|[Jaeger](https://github.com/jaegertracing/jaeger)|
+||[zipkin](https://github.com/openzipkin/zipkin)|
+|QA | [reportPortal](https://github.com/reportportal/reportportal) |[GraphWalker](https://github.com/GraphWalker/graphwalker-project)|[cucumber](https://github.com/cucumber/cucumber)|[Mocking Topic](https://github.com/topics/mocking)|
 ||[Kayenta-Automated Canary Analysis (ACA)](https://github.com/spinnaker/kayenta)|[Stub Topic](https://github.com/topics/stubbing)|[Testframework Topic](https://github.com/topics/test-framework)|[testing Topic](https://github.com/topics/testing)|
 ||[test-automation topic](https://github.com/topics/test-automation)|
 ||[Vitrage](https://github.com/openstack/vitrage) |[RCA 蒙特卡洛树](https://github.com/junkfei/Multidimensional_root_cause_analysis)|
 |发布|[Spinnaker](https://github.com/spinnaker)|[携程发布](https://github.com/ctripcorp/tars)|[PHP发布](https://github.com/lisijie/gopub)|[携程Tars](https://github.com/davidwang2008u/tars)|
 |Monitor|[Grafana](https://github.com/grafana/grafana)|[Kibana](https://github.com/elastic/kibana)|[Redash](https://github.com/getredash/redash)|[Hygieia : CapitalOne DevOps Dashboard](https://github.com/Hygieia)|
 ||[prometheus](https://github.com/prometheus/prometheus)|[sentry](https://github.com/getsentry/sentry)|[osquery](https://github.com/osquery/osquery)|[netdata](https://github.com/netdata/netdata)|
-|Cloud |[OpenShift](https://github.com/openshift)|[Clould Native!](https://www.cncf.io/projects/)|
+|Cloud |[OpenShift](https://github.com/openshift)|[Clould Native!](https://www.cncf.io/projects/)|[Github CNCF](https://github.com/topics/cncf)
 |Kubenetes|[Dashboard](kubernetes/dashboard)|
 |CDC|[pack-broker](https://github.com/bethesque/pact_broker)|[pact](https://docs.pact.io/)|
 
@@ -52,6 +53,10 @@
 * [Moco](https://github.com/dreamhead/moco)
 * [poco](https://github.com/AirtestProject/Poco)A cross-engine test automation framework based on UI inspection
 * [Ali rap2-delos](https://github.com/thx/rap2-delos)
+* [Jaeger](https://github.com/jaegertracing/jaeger)
+  * [CN简介](https://github.com/jukylin/blog/blob/master/Uber%E5%88%86%E5%B8%83%E5%BC%8F%E8%BF%BD%E8%B8%AA%E7%B3%BB%E7%BB%9FJaeger%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D%E5%92%8C%E6%A1%88%E4%BE%8B%E3%80%90PHP%20%20%20Hprose%20%20%20Go%E3%80%91.md)
+  * [Jaeger in java](https://help.aliyun.com/document_detail/90501.html)
+* [zipkin](https://github.com/openzipkin/zipkin)  
 
 ### AI Testing
 * [Sikuli Homepage](http://sikulix.com/)
