@@ -16,7 +16,7 @@
 ||[zipkin](https://github.com/openzipkin/zipkin)|
 |QA | [reportPortal](https://github.com/reportportal/reportportal) |[GraphWalker](https://github.com/GraphWalker/graphwalker-project)|[cucumber](https://github.com/cucumber/cucumber)|[Mocking Topic](https://github.com/topics/mocking)|
 ||[Kayenta-Automated Canary Analysis (ACA)](https://github.com/spinnaker/kayenta)|[Stub Topic](https://github.com/topics/stubbing)|[Testframework Topic](https://github.com/topics/test-framework)|[testing Topic](https://github.com/topics/testing)|
-||[test-automation topic](https://github.com/topics/test-automation)|
+||[test-automation topic](https://github.com/topics/test-automation)|[Carina](https://github.com/qaprosoft/carina)|
 ||[Vitrage](https://github.com/openstack/vitrage) |[RCA 蒙特卡洛树](https://github.com/junkfei/Multidimensional_root_cause_analysis)|
 |发布|[Spinnaker](https://github.com/spinnaker)|[携程发布](https://github.com/ctripcorp/tars)|[PHP发布](https://github.com/lisijie/gopub)|[携程Tars](https://github.com/davidwang2008u/tars)|
 |Monitor|[Grafana](https://github.com/grafana/grafana)|[Kibana](https://github.com/elastic/kibana)|[Redash](https://github.com/getredash/redash)|[Hygieia : CapitalOne DevOps Dashboard](https://github.com/Hygieia)|
@@ -63,6 +63,8 @@
   * [CN简介](https://github.com/jukylin/blog/blob/master/Uber%E5%88%86%E5%B8%83%E5%BC%8F%E8%BF%BD%E8%B8%AA%E7%B3%BB%E7%BB%9FJaeger%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D%E5%92%8C%E6%A1%88%E4%BE%8B%E3%80%90PHP%20%20%20Hprose%20%20%20Go%E3%80%91.md)
   * [Jaeger in java](https://help.aliyun.com/document_detail/90501.html)
 * [zipkin](https://github.com/openzipkin/zipkin)  
+* [Carina (Carina automation framework: Web, Mobile, API, DB)](https://github.com/qaprosoft/carina)
+
 
 ### AI Testing
 * [Sikuli Homepage](http://sikulix.com/)
