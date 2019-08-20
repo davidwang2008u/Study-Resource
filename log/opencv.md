@@ -1,4 +1,3 @@
-# SIFT
 #### Document
 * [OpenCV教學](http://monkeycoding.com/?p=615)
 * [特征点匹配——SIFT算法详解](https://blog.csdn.net/lhanchao/article/details/52345845)
@@ -20,3 +19,6 @@
 * [find-object 视频中检测识别By OpenCV](https://introlab.github.io/find-object/)
   * [Github Code](https://github.com/introlab/find-object)
 * [Darkflow- Real-time object detection and classification](https://github.com/thtrieu/darkflow)
+
+#### Deep Learning
+* [【AI实战】手把手教你深度学习文字识别（文字检测篇：基于MSER, CTPN, SegLink, EAST等方法）](https://my.oschina.net/u/876354/blog/3054322/)
