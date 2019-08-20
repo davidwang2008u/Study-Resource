@@ -15,7 +15,7 @@
  [CopyFrom](https://github.com/crownpku/Awesome-Chinese-NLP)
 - [资源](https://github.com/davidwang2008u/funNLP)
 - [大规模中文自然语言处理语料](https://github.com/brightmart/nlp_chinese_corpus)
-
+* [Yolo3+OCR](https://github.com/chineseocr/chineseocr)
 
 #### 文本分类代码库
 - [文本分类](https://github.com/davidwang2008u/text-classification-cnn-rnn)
