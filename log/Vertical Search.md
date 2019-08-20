@@ -5,7 +5,7 @@
 * [Solr](https://lucene.apache.org/solr/)
   * [Apache Lucene and Solr](https://github.com/apache/lucene-solr)
   * [Solandra Achived](https://github.com/tjake/Solandra)
-
+* [开源的景点搜索引擎](https://github.com/davidwang2008u/trip-search)
 
 ### 搜索引擎架构(Document)
 * [用Solr构建垂直搜索引擎](https://www.gitbook.com/book/fliaping/create-your-vertical-search-engine-with-solr)
