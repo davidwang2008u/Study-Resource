@@ -1,14 +1,4 @@
-# golangFamily
-【超全golang面试题合集+golang学习指南+golang知识图谱+成长路线】 一份涵盖大部分golang程序员所需要掌握的核心知识。
-
-![](https://cdn.jsdelivr.net/gh/zhaolunallen/picture/2021-1-8/1610113159235-GO%E6%88%90%E9%95%BF%E8%B7%AF%E7%BA%BF.jpg)
-[脑图持续不断更新中，在线查看地址](https://www.processon.com/view/link/5ff500aa1e08531de81e1288)  
-后续文章和内容会不断更新到 [github项目](https://github.com/xiaobaiTech/golangFamily) 中，欢迎关注。
-
-
-<img src="https://cdn.jsdelivr.net/gh/xiaobaiTech/image/默认标题_动态横版二维码_2021-03-19-0.gif" width="500px" />
-# 目录(善用Ctrl+F)
-
+# Golang知识
 - **50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs**
   - 初级
     - 不允许左大括号单独一行
@@ -76,8 +66,6 @@
     - 优先调度，有一些比较流氓的goroutine会阻止其它goroutine的执行。例如for循环可能就不允许调度器(scheduler)执行。scheduler会在GC、go语句、阻塞channel的操作、阻塞系统调用、lock操作等语句执行之后立即执行。也可以显示地执行runtime.Gosched()（让出时间片）使scheduler执行调度工作。
     - Append
 - 基础入门
-  - 新手
-    - [Golang开发新手常犯的50个错误](https://blog.csdn.net/gezhonglei2007/article/details/52237582)
   - 数据类型
     - [连nil切片和空切片一不一样都不清楚？那BAT面试官只好让你回去等通知了。](https://mp.weixin.qq.com/s/myGJ4TrEoVGqLAN3tbZHMw) 
     - [golang面试题：字符串转成byte数组，会发生内存拷贝吗？](https://mp.weixin.qq.com/s/d80m0hgoKcHfKp4ZXH1M4A)  
