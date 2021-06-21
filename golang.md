@@ -9,6 +9,72 @@
 <img src="https://cdn.jsdelivr.net/gh/xiaobaiTech/image/默认标题_动态横版二维码_2021-03-19-0.gif" width="500px" />
 # 目录(善用Ctrl+F)
 
+- **50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs**
+  - 初级
+    - 不允许左大括号单独一行
+    - 不允许出现未使用的变量
+    - 不允许出现未使用的import (使用_作为引入包别名)
+    - 短的变量声明(Short Variable Declarations)只能在函数内部使用
+    - 不能使用短变量声明(Short Variable Declarations)重复声明
+    - 不能使用短变量声明(Short Variable Declarations)这种方式来设置字段值
+    - 意外的变量幽灵（Accidental Variable Shadowing）(代码块中使用短变更声明与外部相同的变量时，没有语法编译错误，但是代码块中同名短变量声明从声明开始到代码块结束，对变量的修改将不会影响到外部变量！这种现象称之为幽灵变量，可以使用go tool vet -shadow you_file.go检查幽灵变量。)
+    - 不能使用nil初始化一个未指定类型的变量
+    - 不能直接使用nil值的Slice和Map
+    - map使用make分配内存时可指定capicity，但是不能对map使用cap函数
+    - 字符串不允许使用nil值
+    - 数组用于函数传参时是值复制,应该叫做值传递
+    - range关键字返回是键值对，而不是值
+    - Slice和Array是一维的， Go表面上看起来像多维的，实际上只是一维的。但可以使用原始的一维数组、一维的切片来实现多维。（待分析验证）
+    - 从不存在key的map中取值时，返回的总是”0值”，x[key]需要判断是否存在key
+    - 字符串是不可变
+    - 字符串与[]byte之间的转换是复制（有内存损耗），可以用map[string] []byte建立字符串与[]byte之间映射，也可range来避免内存分配来提高性能
+    - string的索引操作返回的是byte（或uint8），如想获取字符可使用for range，也可使用unicode/utf8包和golang.org/x/exp/utf8string包的At()方法。
+    - 字符串并不总是UTF8的文本
+    - len(str)返回的是字符串的字节数，获取字符串的rune数是使用unicode/utf8.RuneCountInString()函数，但注意一些字符也可能是由多个rune组成，如é是两个rune组成。
+    - 在Slice、Array、Map的多行书写最后的逗号不可省略
+    - 内置数据结构的操作并不同步，但可把Go提供了并发的特性使用起来：goroutines和channels。
+    - 使用for range迭代String，是以rune来迭代的。
+    - rune是什么，int32的别名，几乎在所有方面等同于int32，它用来区分字符值和整数值，所以在go语言中引进了rune的概念。在我们对字符串进去处理的时候只需要将字符串通过range去遍历，会按照rune为单位自动去处理，极其便利。
+    - 一个字符，也可以有多个rune组成。需要处理字符，尽量使用golang.org/x/text/unicode/norm包。
+    - 使用for range迭代map时每次迭代的顺序可能不一样，因为map的迭代是随机的。
+    - switch的case默认匹配规则不同于其它语言的是，匹配case条件后默认退出，除非使用fallthrough继续匹配；而其它语言是默认继续匹配，除非使用break退出匹配。
+    - 只有后置自增、后置自减，不存在前置自增、前置自减
+    - 位运算的非操作是^（跟异或位运算一样），有别于其它语言的~。
+    - 位运算(与、或、异或、取反)优先级高于四则运算(加、减、乘、除、取余)，有别于C语言。
+    - 结构体在序列化时非导出字段（以小写字母开头的字段名）不会被encode，因此在decode时这些非导出字段的值为”0值”
+    - 程序不等所有goroutine结束就会退出。可通过channel实现主协程(main goroutine)等待所有goroutine完成。
+    - 对于无缓存区的channel，写入channel的goroutine会阻塞直到被读取，读取channel的goroutine会阻塞直到有数据写入。
+    - 从一个closed状态的channel读取数据是安全的，可通过返回状态（第二个返回参数）判断是否关闭；而向一个closed状态的channel写数据会导致panic。
+    - 向一个nil值（未用make分配空间）的channel发送或读取数据，会导致永远阻塞。
+    - 方法函数的定义；方法接收者是类型（T），接收者只是原对象的值复制，在方法中修改接收者不会修改原始对象的值；如果方法接收者是指针类型（*T），是对原对象的引用，方法中对其修改当然是原对象修改。
+    - log包中的log.Fatal和log.Panic不仅仅记录日志，还会中止程序。它不同于Logging库。
+  - 中级
+    - 关闭HTTP的Response.Body，使用defer语句关闭资源时要注意nil值，在defer语句之前要进行nill值处理；在Go 1.5之前resp.Body.Close()会读取并丢失body中的数据，保证在启用keepaliva的http时能够在下一次请求时重用。在Go 1.5之后，就需要在关闭前手动处理。
+    - 关闭HTTP连接：可使用req.Close=true，表示在http请求完成时关闭连接；添加Connection: close的连接请求头。http服务端也会发送Connection: close的响应头，http库处理响应时会关闭连接。
+    - 全局关闭http连接重用。
+    - Json反序列化数字到interface{}类型的值中，默认解析为float64类型，在使用时要注意。使用Decoder类型解析JSON；使用struct结构体映射；使用struct映射数字为json.RawMessage
+    - Struct、Array、Slice、Map的比较；如果struct结构体的所有字段都能够使用==操作比较，那么结构体变量也能够使用==比较。但是，如果struct字段不能使用==比较，那么结构体变量使用==比较会导致编译错误。同样，array只有在它的每个元素能够使用==比较时，array变量才能够比较。Go提供了一些用于比较不能直接使用==比较的函数，其中最常用的是reflect.DeepEqual()函数。DeepEqual()函数对于nil值的slice与空元素的slice是不相等的，这点不同于bytes.Equal()函数。
+    - 从panic中恢复：recover()函数能够捕获或拦截panic，但必须在defer函数或语句中直接调用，否则无效。
+    - 在slice、array、map的for range子句中修改和引用数据项；使用range获取的数据项是从集合元素的复制过来的，并非引用原始数据，但使用索引能访问原始数据。
+    - Slice中的隐藏数据，从一个slice上再生成一个切片slice，新的slice将直接引用原始slice的那个数组，两个slice对同一数组的操作，会相互影响。可通过为新切片slice重新分配空间，从slice中copy部分的数据来避免相互之间的影响。
+    - Slice超范围数据覆盖，从已存在的切片slice中继续切片时，新切片的capicity等于原capicity减去新切片之前部分的数量，新切片与原切片都指向同一数组空间。新生成切片之间capicity区域是重叠的，因此在添加数据时易造成数据覆盖问题。slice使用append添加的内容时超出capicity时，会重新分配空间。利用这一点，将要修改的切片指定capicity为切片当前length，可避免切片之间的超范围覆盖影响。
+    - Slice增加元素重新分配内存导致的怪事，slice在添加元素前，与其它切片共享同一数据区域，修改会相互影响；但添加元素导致内存重新分配之后，不再指向原来的数据区域，修改元素，不再影响其它切片。
+    - 类型重定义与方法继承，从一个已存在的(non-interface)非接口类型重新定义一个新类型时，不会继承原类型的任何方法。可以通过定义一个组合匿名变量的类型，来实现对此匿名变量类型的继承。但是从一个已存在接口重新定义一个新接口时，新接口会继承原接口所有方法。
+    - 从”for switch”和”for select”代码块中跳出。无label的break只会跳出最内层的switch/select代码块。如需要从switch/select代码块中跳出外层的for循环，可以在for循环外部定义label，供break跳出。return当然也是可以的，如果在这里可以用的话。
+    - 在for语句的闭包中使用迭代变量会有问题，在for迭代过程中，迭代变量会一直保留，只是每次迭代值不一样。因此在for循环中在闭包里直接引用迭代变量，在执行时直接取迭代变量的值，而不是闭包所在迭代的变量值。如果闭包要取所在迭代变量的值，就需要for中定义一个变量来保存所在迭代的值，或者通过闭包函数传参。
+    - defer函数调用参数，defer后面必须是函数或方法的调用语句。defer后面不论是函数还是方法，输入参数的值是在defer声明时已计算好，而不是调用开始计算。要特别注意的是，defer后面是方法调用语句时，方法的接受者是在defer语句执行时传递的，而不是defer声明时传入的。
+    - defer语句调用是在当前函数结束之后调用，而不是变量的作用范围。
+    - 失败的类型断言，var.(T)类型断言失败时会返回T类型的“0值”，而不是变量原始值。
+    - 阻塞的goroutine与资源泄漏
+  - 高级  
+    - 用值实例上调用接收者为指针的方法，对于可寻址(addressable)的值变量(而不是指针)，可以直接调用接受对象为指针类型的方法。换句话说，就不需要为可寻址值变量定义以接受对象为值类型的方法了。但是，并不是所有变量都是可寻址的，像Map的元素就是不可寻址的。
+    - 更新map值的字段，如果map的值类型是结构体类型，那么不能更新从map中取出的结构体的字段值。但是对于结构体类型的slice却是可以的。
+    - nil值的interface{}不等于nil。在golang中，nil只能赋值给指针、channel、func、interface、map或slice类型的变量。interface{}表示任意类型，可以接收任意类型的值。interface{}变量在底是由类型和值两部分组成，表示为(T,V)，interface{}变量比较特殊，判断它是nil时，要求它的类型和值都是nil，即(nil, nil)。其它类型变量，只要值是nil，那么此变量就是nil（为什么？变量类型不是nil，那当然只能用值来判断了）。声明变量interface{}，它默认就是nil，底层类型与值表示是(nil, nil)。当任何类型T的变量值V给interface{}变量赋值时，interface{}变量的底层表示是(T, V)。只要T非nil，即使V是nil，interface{}变量也不是nil。因此，var a interface{}、var a interface{} = nil、“
+    - 变量内存的分配，在C++中使用new操作符总是在heap上分配变量。Go编译器使用new()和make()分配内存的位置到底是stack还是heap，取决于变量的大小(size)和逃逸分析的结果(result of “escape analysis”)。这意味着Go语言中，返回本地变量的引用也不会有问题。要想知道变量内存分配的位置，可以在go build、go run命令指定-gcflags -m即可：go run -gcflags -m app.go
+    - GOMAXPROCS、Concurrency和Parallelism。Go 1.4及以下版本每个操作系统线程只使用一个执行上下文execution context)。这意味着每个时间片，只有一个goroutine执行。从Go 1.5开始可以设置执行上下文的数量为CUP内核数量runtime.NumCPU()，也可以通过GOMAXPROCS环境变量来设置，还可调用runtime.GOMAXPROCS()函数来设置。注意，GOMAXPROCS并不代表Go运行时能够使用的CPU数量，它是一个小256的数值，可以设置比实际的CPU数量更大的数字。
+    - 读写操作排序，Go可能会对一些操作排序，但它保证在goroutine的所有行为保持不变。但是，它无法保证在跨多个goroutine时的执行顺序。
+    - 优先调度，有一些比较流氓的goroutine会阻止其它goroutine的执行。例如for循环可能就不允许调度器(scheduler)执行。scheduler会在GC、go语句、阻塞channel的操作、阻塞系统调用、lock操作等语句执行之后立即执行。也可以显示地执行runtime.Gosched()（让出时间片）使scheduler执行调度工作。
+    - Append
 - 基础入门
   - 新手
     - [Golang开发新手常犯的50个错误](https://blog.csdn.net/gezhonglei2007/article/details/52237582)
