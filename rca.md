@@ -1,7 +1,7 @@
 # RCA分析
 
 ## 基础理论
-* [概率图](https://www.cnblogs.com/mantch/p/11179933.html)
+* [概率图 graphical model](https://www.cnblogs.com/mantch/p/11179933.html)
     * 概率图模型是用图来表示变量概率依赖关系的理论，结合概率论与图论的知识，利用图来表示与模型有关的变量的联合概率分布
     * 贝叶斯网络Bayesian Network(有向图模型.因果关系)
 	* 马尔可夫网络Markov Network(无向图模型.相关关系)
@@ -9,15 +9,22 @@
     * ID3
 	* C4.5
 	* CART (Classification and Regression Tree)
+	* Bagging, 是一个早期的集成方法，用有放回抽样法来训练多棵决策树，最终结果用投票法产生。
+	* 随机森林(Random Forest) 使用多棵决策树来改进分类性能。
+	* 提升树 (Boosting Tree) 可以用来做回归分析和分类决策
+	    * Regression Decision Tree：回归树
+		* Boosting Decision Tree：提升树算法
+	    * GBDT(Gradient Boosting Decision Tree) 又叫 MART（Multiple Additive Regression Tree)，是一种迭代的决策树算法，该算法由多棵决策树组成，所有树的结论累加起来做最终答案。它在被提出之初就和SVM一起被认为是泛化能力较强的算法。
+		* xgboost 的全称是eXtreme Gradient Boosting
+		
+	* 旋转森林（Rotation forest） – 每棵树的训练首先使用主元分析法 (PCA)
 * 马尔可夫决策过程 (Markov Decision Process, MDP) 概念：其未来由现在决定的程度，使得我们关于过去的知识丝毫不影响这种决定性。这种在已知“现在”的条件下，“未来”与“过去”彼此独立的特性就被称为马尔可夫性，具有这种性质的随机过程就叫做马尔可夫过程，其最原始的模型就是马尔可夫链。
     * [马尔可夫过程]这种在已知“现在”的条件下，“未来”与“过去”彼此独立的特性就被称为马尔可夫性，具有这种性质的随机过程就叫做马尔可夫过程，其最原始的模型就是马尔可夫链。
     * [马尔科夫链] 马尔可夫链（Markov Chain, MC）是概率论和数理统计中具有马尔可夫性质（Markov property）且存在于离散的指数集（index set）和状态空间（state space）内的随机过程（stochastic process）
 	* [马尔可夫过程（Markov process）]适用于连续指数集的马尔可夫链被称为马尔可夫过程（Markov process）
     * [马尔可夫逻辑网](Markov Random Field,也叫马尔可夫网)拿种地打比方，如果任何一块地里种的庄稼的种类仅仅与它邻近的地里种的庄稼的种类有关，与其它地方的庄稼的种类无关，那么这些地里种的庄稼的集合，就是一个马尔可夫随机场。 
-    * [隐马尔可夫模型]隐马科夫(HMM)模型全称：Hidden Markov model，是一种统计学的模型，是马科夫链与无法观察的状态的结合。
-* 动态决策
-    * [隐马尔可夫模型](http://kibo.tech/2018/04/25/33-%E5%8A%A8%E6%80%81%E5%86%B3%E7%AD%96%E2%80%94%E2%80%94%E9%9A%90%E9%A9%AC%E5%B0%94%E7%A7%91%E5%A4%AB%E6%A8%A1%E5%9E%8B/)
-* 图模型
+    * [隐马尔可夫模型]隐马科夫(HMM)模型全称：Hidden Markov model，是一种统计学的模型，是马科夫链与无法观察的状态的结合。[隐马尔可夫模型](http://kibo.tech/2018/04/25/33-%E5%8A%A8%E6%80%81%E5%86%B3%E7%AD%96%E2%80%94%E2%80%94%E9%9A%90%E9%A9%AC%E5%B0%94%E7%A7%91%E5%A4%AB%E6%A8%A1%E5%9E%8B/)
+
 
 * 蒙特卡罗
     * 蒙特卡罗树搜索
